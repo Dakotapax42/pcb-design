@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_AVR:AT90USB1286-AU U?
+U 1 1 60566F3F
+P 3750 4600
+F 0 "U?" H 3750 2511 50  0000 C CNN
+F 1 "AT90USB1286-AU" H 3750 2420 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 3750 4600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB?
+U 1 1 60569BAC
+P 1450 1600
+F 0 "USB?" H 1283 2397 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1283 2291 60  0000 C CNN
+F 2 "" H 1450 1600 60  0001 C CNN
+F 3 "" H 1450 1600 60  0001 C CNN
+	1    1450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 6056B979
+P 5750 1400
+F 0 "J?" H 5421 1496 50  0000 R CNN
+F 1 "AVR-ISP-6" H 5421 1405 50  0000 R CNN
+F 2 "" V 5500 1450 50  0001 C CNN
+F 3 " ~" H 4475 850 50  0001 C CNN
+	1    5750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:IS31FL3737 U?
+U 1 1 6056D1F8
+P 6600 4650
+F 0 "U?" H 6600 6231 50  0000 C CNN
+F 1 "IS31FL3737" H 6600 6140 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm" H 6600 4650 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/31FL3737.pdf" H 6600 4650 50  0001 C CNN
+	1    6600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60580F13
+P 7600 1000
+F 0 "J?" H 7680 992 50  0000 L CNN
+F 1 "Conn_01x04" H 7680 901 50  0000 L CNN
+F 2 "" H 7600 1000 50  0001 C CNN
+F 3 "~" H 7600 1000 50  0001 C CNN
+	1    7600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 60582B98
+P 8650 2350
+F 0 "SW?" H 8650 2717 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8650 2626 50  0000 C CNN
+F 2 "" H 8500 2510 50  0001 C CNN
+F 3 "~" H 8650 2610 50  0001 C CNN
+	1    8650 2350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
