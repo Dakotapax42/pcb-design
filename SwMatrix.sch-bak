@@ -1,0 +1,2457 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1050 2600 0    50   Input ~ 0
+row1
+Text GLabel 1050 3550 0    50   Input ~ 0
+row2
+Text GLabel 1050 4500 0    50   Input ~ 0
+row3
+Text GLabel 1050 5450 0    50   Input ~ 0
+row4
+Text GLabel 1050 6400 0    50   Input ~ 0
+row5
+Text GLabel 2450 900  1    50   Input ~ 0
+col1
+Text GLabel 3200 900  1    50   Input ~ 0
+col2
+Text GLabel 3950 900  1    50   Input ~ 0
+col3
+Text GLabel 4700 900  1    50   Input ~ 0
+col4
+Text GLabel 6200 900  1    50   Input ~ 0
+col6
+Text GLabel 6950 900  1    50   Input ~ 0
+col7
+Text GLabel 7700 900  1    50   Input ~ 0
+col8
+Text GLabel 8450 900  1    50   Input ~ 0
+col9
+Text GLabel 9200 900  1    50   Input ~ 0
+col10
+Text GLabel 9950 900  1    50   Input ~ 0
+col11
+Text GLabel 10700 900  1    50   Input ~ 0
+col12
+Text GLabel 11450 900  1    50   Input ~ 0
+col13
+Text GLabel 1700 900  1    50   Input ~ 0
+col0
+Text GLabel 1050 1650 0    50   Input ~ 0
+row0
+Text GLabel 5450 900  1    50   Input ~ 0
+col5
+$Comp
+L Switch:SW_Push SW71
+U 1 1 60C2DE67
+P 1500 6100
+F 0 "SW71" H 1500 6385 50  0000 C CNN
+F 1 "SW_Push" H 1500 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 1500 6300 50  0001 C CNN
+F 3 "~" H 1500 6300 50  0001 C CNN
+	1    1500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 6400 7300 6400
+Wire Wire Line
+	2800 6400 5050 6400
+Wire Wire Line
+	11450 5150 11450 6100
+Wire Wire Line
+	10700 5150 10700 6100
+Wire Wire Line
+	9950 5150 9950 6100
+Wire Wire Line
+	9200 5150 9200 6100
+Wire Wire Line
+	8450 5150 8450 6100
+Wire Wire Line
+	7700 5150 7700 6100
+Wire Wire Line
+	5450 5150 5450 6100
+Wire Wire Line
+	3200 5150 3200 6100
+Wire Wire Line
+	2450 5150 2450 6100
+Wire Wire Line
+	1700 5150 1700 6100
+Wire Wire Line
+	9550 6400 10300 6400
+Wire Wire Line
+	10300 6400 11050 6400
+Wire Wire Line
+	11050 6100 11050 6200
+$Comp
+L Device:D_Small D80
+U 1 1 60C2DF56
+P 11050 6300
+F 0 "D80" V 11096 6230 50  0000 R CNN
+F 1 "D_Small" V 11005 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11050 6300 50  0001 C CNN
+F 3 "~" V 11050 6300 50  0001 C CNN
+	1    11050 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW80
+U 1 1 60C2DF4F
+P 11250 6100
+F 0 "SW80" H 11250 6385 50  0000 C CNN
+F 1 "SW_Push" H 11250 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11250 6300 50  0001 C CNN
+F 3 "~" H 11250 6300 50  0001 C CNN
+	1    11250 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 6400
+Wire Wire Line
+	10300 6100 10300 6200
+$Comp
+L Device:D_Small D79
+U 1 1 60C2DF45
+P 10300 6300
+F 0 "D79" V 10346 6230 50  0000 R CNN
+F 1 "D_Small" V 10255 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10300 6300 50  0001 C CNN
+F 3 "~" V 10300 6300 50  0001 C CNN
+	1    10300 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW79
+U 1 1 60C2DF3E
+P 10500 6100
+F 0 "SW79" H 10500 6385 50  0000 C CNN
+F 1 "SW_Push" H 10500 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 6300 50  0001 C CNN
+F 3 "~" H 10500 6300 50  0001 C CNN
+	1    10500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 6400 8800 6400
+Wire Wire Line
+	8800 6400 9550 6400
+Connection ~ 9550 6400
+Wire Wire Line
+	9550 6100 9550 6200
+$Comp
+L Device:D_Small D78
+U 1 1 60C2DF32
+P 9550 6300
+F 0 "D78" V 9596 6230 50  0000 R CNN
+F 1 "D_Small" V 9505 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9550 6300 50  0001 C CNN
+F 3 "~" V 9550 6300 50  0001 C CNN
+	1    9550 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW78
+U 1 1 60C2DF2B
+P 9750 6100
+F 0 "SW78" H 9750 6385 50  0000 C CNN
+F 1 "SW_Push" H 9750 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9750 6300 50  0001 C CNN
+F 3 "~" H 9750 6300 50  0001 C CNN
+	1    9750 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 8800 6400
+Wire Wire Line
+	8800 6100 8800 6200
+$Comp
+L Device:D_Small D77
+U 1 1 60C2DF21
+P 8800 6300
+F 0 "D77" V 8846 6230 50  0000 R CNN
+F 1 "D_Small" V 8755 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8800 6300 50  0001 C CNN
+F 3 "~" V 8800 6300 50  0001 C CNN
+	1    8800 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW77
+U 1 1 60C2DF1A
+P 9000 6100
+F 0 "SW77" H 9000 6385 50  0000 C CNN
+F 1 "SW_Push" H 9000 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 6300 50  0001 C CNN
+F 3 "~" H 9000 6300 50  0001 C CNN
+	1    9000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 6400 8050 6400
+Connection ~ 8050 6400
+Wire Wire Line
+	8050 6100 8050 6200
+$Comp
+L Device:D_Small D76
+U 1 1 60C2DF0F
+P 8050 6300
+F 0 "D76" V 8096 6230 50  0000 R CNN
+F 1 "D_Small" V 8005 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8050 6300 50  0001 C CNN
+F 3 "~" V 8050 6300 50  0001 C CNN
+	1    8050 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW76
+U 1 1 60C2DF08
+P 8250 6100
+F 0 "SW76" H 8250 6385 50  0000 C CNN
+F 1 "SW_Push" H 8250 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8250 6300 50  0001 C CNN
+F 3 "~" H 8250 6300 50  0001 C CNN
+	1    8250 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7300 6400
+Wire Wire Line
+	7300 6100 7300 6200
+$Comp
+L Device:D_Small D75
+U 1 1 60C2DEFE
+P 7300 6300
+F 0 "D75" V 7346 6230 50  0000 R CNN
+F 1 "D_Small" V 7255 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7300 6300 50  0001 C CNN
+F 3 "~" V 7300 6300 50  0001 C CNN
+	1    7300 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW75
+U 1 1 60C2DEF7
+P 7500 6100
+F 0 "SW75" H 7500 6385 50  0000 C CNN
+F 1 "SW_Push" H 7500 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7500 6300 50  0001 C CNN
+F 3 "~" H 7500 6300 50  0001 C CNN
+	1    7500 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 6400
+Wire Wire Line
+	5050 6100 5050 6200
+$Comp
+L Device:D_Small D74
+U 1 1 60C2DEC7
+P 5050 6300
+F 0 "D74" V 5096 6230 50  0000 R CNN
+F 1 "D_Small" V 5005 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5050 6300 50  0001 C CNN
+F 3 "~" V 5050 6300 50  0001 C CNN
+	1    5050 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 6400 2800 6400
+Connection ~ 2800 6400
+Wire Wire Line
+	2800 6100 2800 6200
+$Comp
+L Device:D_Small D73
+U 1 1 60C2DE92
+P 2800 6300
+F 0 "D73" V 2846 6230 50  0000 R CNN
+F 1 "D_Small" V 2755 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2800 6300 50  0001 C CNN
+F 3 "~" V 2800 6300 50  0001 C CNN
+	1    2800 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW73
+U 1 1 60C2DE8B
+P 3000 6100
+F 0 "SW73" H 3000 6385 50  0000 C CNN
+F 1 "SW_Push" H 3000 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 3000 6300 50  0001 C CNN
+F 3 "~" H 3000 6300 50  0001 C CNN
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 6400 2050 6400
+Connection ~ 2050 6400
+Wire Wire Line
+	2050 6100 2050 6200
+$Comp
+L Device:D_Small D72
+U 1 1 60C2DE80
+P 2050 6300
+F 0 "D72" V 2096 6230 50  0000 R CNN
+F 1 "D_Small" V 2005 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2050 6300 50  0001 C CNN
+F 3 "~" V 2050 6300 50  0001 C CNN
+	1    2050 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW72
+U 1 1 60C2DE79
+P 2250 6100
+F 0 "SW72" H 2250 6385 50  0000 C CNN
+F 1 "SW_Push" H 2250 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 2250 6300 50  0001 C CNN
+F 3 "~" H 2250 6300 50  0001 C CNN
+	1    2250 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 6400
+Wire Wire Line
+	1050 6400 1300 6400
+Wire Wire Line
+	1300 6100 1300 6200
+$Comp
+L Device:D_Small D71
+U 1 1 60C2DE6E
+P 1300 6300
+F 0 "D71" V 1346 6230 50  0000 R CNN
+F 1 "D_Small" V 1255 6230 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 6300 50  0001 C CNN
+F 3 "~" V 1300 6300 50  0001 C CNN
+	1    1300 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11450 4200 11450 5150
+Wire Wire Line
+	10700 4200 10700 5150
+Wire Wire Line
+	9950 4200 9950 5150
+Wire Wire Line
+	9200 4200 9200 5150
+Wire Wire Line
+	8450 4200 8450 5150
+Wire Wire Line
+	7700 4200 7700 5150
+Wire Wire Line
+	6950 4200 6950 5150
+Wire Wire Line
+	6200 4200 6200 5150
+Wire Wire Line
+	5450 4200 5450 5150
+Wire Wire Line
+	4700 4200 4700 5150
+Wire Wire Line
+	3950 4200 3950 5150
+Wire Wire Line
+	3200 4200 3200 5150
+Wire Wire Line
+	2450 4200 2450 5150
+Wire Wire Line
+	1700 4200 1700 5150
+Wire Wire Line
+	6550 5450 7300 5450
+Wire Wire Line
+	9550 5450 10300 5450
+Wire Wire Line
+	10300 5450 11050 5450
+Connection ~ 11450 5150
+Wire Wire Line
+	11050 5150 11050 5250
+$Comp
+L Device:D_Small D70
+U 1 1 60BC34CC
+P 11050 5350
+F 0 "D70" V 11096 5280 50  0000 R CNN
+F 1 "D_Small" V 11005 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11050 5350 50  0001 C CNN
+F 3 "~" V 11050 5350 50  0001 C CNN
+	1    11050 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW70
+U 1 1 60BC34C5
+P 11250 5150
+F 0 "SW70" H 11250 5435 50  0000 C CNN
+F 1 "SW_Push" H 11250 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11250 5350 50  0001 C CNN
+F 3 "~" H 11250 5350 50  0001 C CNN
+	1    11250 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 5150
+Connection ~ 10300 5450
+Wire Wire Line
+	10300 5150 10300 5250
+$Comp
+L Device:D_Small D69
+U 1 1 60BC34BB
+P 10300 5350
+F 0 "D69" V 10346 5280 50  0000 R CNN
+F 1 "D_Small" V 10255 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10300 5350 50  0001 C CNN
+F 3 "~" V 10300 5350 50  0001 C CNN
+	1    10300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW69
+U 1 1 60BC34B4
+P 10500 5150
+F 0 "SW69" H 10500 5435 50  0000 C CNN
+F 1 "SW_Push" H 10500 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 5350 50  0001 C CNN
+F 3 "~" H 10500 5350 50  0001 C CNN
+	1    10500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5450 8800 5450
+Wire Wire Line
+	8800 5450 9550 5450
+Connection ~ 9950 5150
+Connection ~ 9550 5450
+Wire Wire Line
+	9550 5150 9550 5250
+$Comp
+L Device:D_Small D68
+U 1 1 60BC34A8
+P 9550 5350
+F 0 "D68" V 9596 5280 50  0000 R CNN
+F 1 "D_Small" V 9505 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9550 5350 50  0001 C CNN
+F 3 "~" V 9550 5350 50  0001 C CNN
+	1    9550 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW68
+U 1 1 60BC34A1
+P 9750 5150
+F 0 "SW68" H 9750 5435 50  0000 C CNN
+F 1 "SW_Push" H 9750 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U-NoLED" H 9750 5350 50  0001 C CNN
+F 3 "~" H 9750 5350 50  0001 C CNN
+	1    9750 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 5150
+Connection ~ 8800 5450
+Wire Wire Line
+	8800 5150 8800 5250
+$Comp
+L Device:D_Small D67
+U 1 1 60BC3497
+P 8800 5350
+F 0 "D67" V 8846 5280 50  0000 R CNN
+F 1 "D_Small" V 8755 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8800 5350 50  0001 C CNN
+F 3 "~" V 8800 5350 50  0001 C CNN
+	1    8800 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW67
+U 1 1 60BC3490
+P 9000 5150
+F 0 "SW67" H 9000 5435 50  0000 C CNN
+F 1 "SW_Push" H 9000 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 5350 50  0001 C CNN
+F 3 "~" H 9000 5350 50  0001 C CNN
+	1    9000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5450 8050 5450
+Connection ~ 8450 5150
+Connection ~ 8050 5450
+Wire Wire Line
+	8050 5150 8050 5250
+$Comp
+L Device:D_Small D66
+U 1 1 60BC3485
+P 8050 5350
+F 0 "D66" V 8096 5280 50  0000 R CNN
+F 1 "D_Small" V 8005 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8050 5350 50  0001 C CNN
+F 3 "~" V 8050 5350 50  0001 C CNN
+	1    8050 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW66
+U 1 1 60BC347E
+P 8250 5150
+F 0 "SW66" H 8250 5435 50  0000 C CNN
+F 1 "SW_Push" H 8250 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8250 5350 50  0001 C CNN
+F 3 "~" H 8250 5350 50  0001 C CNN
+	1    8250 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 5150
+Connection ~ 7300 5450
+Wire Wire Line
+	7300 5150 7300 5250
+$Comp
+L Device:D_Small D65
+U 1 1 60BC3474
+P 7300 5350
+F 0 "D65" V 7346 5280 50  0000 R CNN
+F 1 "D_Small" V 7255 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7300 5350 50  0001 C CNN
+F 3 "~" V 7300 5350 50  0001 C CNN
+	1    7300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW65
+U 1 1 60BC346D
+P 7500 5150
+F 0 "SW65" H 7500 5435 50  0000 C CNN
+F 1 "SW_Push" H 7500 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7500 5350 50  0001 C CNN
+F 3 "~" H 7500 5350 50  0001 C CNN
+	1    7500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5450 4300 5450
+Wire Wire Line
+	5050 5450 5800 5450
+Wire Wire Line
+	5800 5450 6550 5450
+Connection ~ 6550 5450
+Wire Wire Line
+	6550 5150 6550 5250
+$Comp
+L Device:D_Small D64
+U 1 1 60BC3460
+P 6550 5350
+F 0 "D64" V 6596 5280 50  0000 R CNN
+F 1 "D_Small" V 6505 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6550 5350 50  0001 C CNN
+F 3 "~" V 6550 5350 50  0001 C CNN
+	1    6550 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW64
+U 1 1 60BC3459
+P 6750 5150
+F 0 "SW64" H 6750 5435 50  0000 C CNN
+F 1 "SW_Push" H 6750 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6750 5350 50  0001 C CNN
+F 3 "~" H 6750 5350 50  0001 C CNN
+	1    6750 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 5450
+Wire Wire Line
+	5800 5150 5800 5250
+$Comp
+L Device:D_Small D63
+U 1 1 60BC344F
+P 5800 5350
+F 0 "D63" V 5846 5280 50  0000 R CNN
+F 1 "D_Small" V 5755 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5800 5350 50  0001 C CNN
+F 3 "~" V 5800 5350 50  0001 C CNN
+	1    5800 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 60BC3448
+P 6000 5150
+F 0 "SW63" H 6000 5435 50  0000 C CNN
+F 1 "SW_Push" H 6000 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 5350 50  0001 C CNN
+F 3 "~" H 6000 5350 50  0001 C CNN
+	1    6000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5450 5050 5450
+Connection ~ 5450 5150
+Connection ~ 5050 5450
+Wire Wire Line
+	5050 5150 5050 5250
+$Comp
+L Device:D_Small D62
+U 1 1 60BC343D
+P 5050 5350
+F 0 "D62" V 5096 5280 50  0000 R CNN
+F 1 "D_Small" V 5005 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5050 5350 50  0001 C CNN
+F 3 "~" V 5050 5350 50  0001 C CNN
+	1    5050 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 60BC3436
+P 5250 5150
+F 0 "SW62" H 5250 5435 50  0000 C CNN
+F 1 "SW_Push" H 5250 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 5350 50  0001 C CNN
+F 3 "~" H 5250 5350 50  0001 C CNN
+	1    5250 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 5450
+Wire Wire Line
+	4300 5150 4300 5250
+$Comp
+L Device:D_Small D61
+U 1 1 60BC342C
+P 4300 5350
+F 0 "D61" V 4346 5280 50  0000 R CNN
+F 1 "D_Small" V 4255 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4300 5350 50  0001 C CNN
+F 3 "~" V 4300 5350 50  0001 C CNN
+	1    4300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 60BC3425
+P 4500 5150
+F 0 "SW61" H 4500 5435 50  0000 C CNN
+F 1 "SW_Push" H 4500 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 5350 50  0001 C CNN
+F 3 "~" H 4500 5350 50  0001 C CNN
+	1    4500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5450 2800 5450
+Wire Wire Line
+	2800 5450 3550 5450
+Connection ~ 3550 5450
+Wire Wire Line
+	3550 5150 3550 5250
+$Comp
+L Device:D_Small D60
+U 1 1 60BC3419
+P 3550 5350
+F 0 "D60" V 3596 5280 50  0000 R CNN
+F 1 "D_Small" V 3505 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3550 5350 50  0001 C CNN
+F 3 "~" V 3550 5350 50  0001 C CNN
+	1    3550 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 60BC3412
+P 3750 5150
+F 0 "SW60" H 3750 5435 50  0000 C CNN
+F 1 "SW_Push" H 3750 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3750 5350 50  0001 C CNN
+F 3 "~" H 3750 5350 50  0001 C CNN
+	1    3750 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 5150
+Connection ~ 2800 5450
+Wire Wire Line
+	2800 5150 2800 5250
+$Comp
+L Device:D_Small D59
+U 1 1 60BC3408
+P 2800 5350
+F 0 "D59" V 2846 5280 50  0000 R CNN
+F 1 "D_Small" V 2755 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2800 5350 50  0001 C CNN
+F 3 "~" V 2800 5350 50  0001 C CNN
+	1    2800 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 60BC3401
+P 3000 5150
+F 0 "SW59" H 3000 5435 50  0000 C CNN
+F 1 "SW_Push" H 3000 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 5350 50  0001 C CNN
+F 3 "~" H 3000 5350 50  0001 C CNN
+	1    3000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5450 2050 5450
+Connection ~ 2450 5150
+Connection ~ 2050 5450
+Wire Wire Line
+	2050 5150 2050 5250
+$Comp
+L Device:D_Small D58
+U 1 1 60BC33F6
+P 2050 5350
+F 0 "D58" V 2096 5280 50  0000 R CNN
+F 1 "D_Small" V 2005 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2050 5350 50  0001 C CNN
+F 3 "~" V 2050 5350 50  0001 C CNN
+	1    2050 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 60BC33EF
+P 2250 5150
+F 0 "SW58" H 2250 5435 50  0000 C CNN
+F 1 "SW_Push" H 2250 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2250 5350 50  0001 C CNN
+F 3 "~" H 2250 5350 50  0001 C CNN
+	1    2250 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 5150
+Connection ~ 1300 5450
+Wire Wire Line
+	1050 5450 1300 5450
+Wire Wire Line
+	1300 5150 1300 5250
+$Comp
+L Device:D_Small D57
+U 1 1 60BC33E4
+P 1300 5350
+F 0 "D57" V 1346 5280 50  0000 R CNN
+F 1 "D_Small" V 1255 5280 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 5350 50  0001 C CNN
+F 3 "~" V 1300 5350 50  0001 C CNN
+	1    1300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 60BC33DD
+P 1500 5150
+F 0 "SW57" H 1500 5435 50  0000 C CNN
+F 1 "SW_Push" H 1500 5344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-NoLED" H 1500 5350 50  0001 C CNN
+F 3 "~" H 1500 5350 50  0001 C CNN
+	1    1500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 3250 11450 4200
+Wire Wire Line
+	10700 3250 10700 4200
+Wire Wire Line
+	9950 3250 9950 4200
+Wire Wire Line
+	9200 3250 9200 4200
+Wire Wire Line
+	8450 3250 8450 4200
+Wire Wire Line
+	7700 3250 7700 4200
+Wire Wire Line
+	6950 3250 6950 4200
+Wire Wire Line
+	6200 3250 6200 4200
+Wire Wire Line
+	5450 3250 5450 4200
+Wire Wire Line
+	4700 3250 4700 4200
+Wire Wire Line
+	3950 3250 3950 4200
+Wire Wire Line
+	3200 3250 3200 4200
+Wire Wire Line
+	2450 3250 2450 4200
+Wire Wire Line
+	1700 3250 1700 4200
+Wire Wire Line
+	6550 4500 7300 4500
+Wire Wire Line
+	9550 4500 10300 4500
+Wire Wire Line
+	10300 4500 11050 4500
+Connection ~ 11450 4200
+Wire Wire Line
+	11050 4200 11050 4300
+$Comp
+L Device:D_Small D56
+U 1 1 60B7FD5E
+P 11050 4400
+F 0 "D56" V 11096 4330 50  0000 R CNN
+F 1 "D_Small" V 11005 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11050 4400 50  0001 C CNN
+F 3 "~" V 11050 4400 50  0001 C CNN
+	1    11050 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 60B7FD57
+P 11250 4200
+F 0 "SW56" H 11250 4485 50  0000 C CNN
+F 1 "SW_Push" H 11250 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11250 4400 50  0001 C CNN
+F 3 "~" H 11250 4400 50  0001 C CNN
+	1    11250 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 4200
+Connection ~ 10300 4500
+Wire Wire Line
+	10300 4200 10300 4300
+$Comp
+L Device:D_Small D55
+U 1 1 60B7FD4D
+P 10300 4400
+F 0 "D55" V 10346 4330 50  0000 R CNN
+F 1 "D_Small" V 10255 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10300 4400 50  0001 C CNN
+F 3 "~" V 10300 4400 50  0001 C CNN
+	1    10300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 60B7FD46
+P 10500 4200
+F 0 "SW55" H 10500 4485 50  0000 C CNN
+F 1 "SW_Push" H 10500 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-NoLED" H 10500 4400 50  0001 C CNN
+F 3 "~" H 10500 4400 50  0001 C CNN
+	1    10500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4500 8800 4500
+Wire Wire Line
+	8800 4500 9550 4500
+Connection ~ 9950 4200
+Connection ~ 9550 4500
+Wire Wire Line
+	9550 4200 9550 4300
+$Comp
+L Device:D_Small D54
+U 1 1 60B7FD3A
+P 9550 4400
+F 0 "D54" V 9596 4330 50  0000 R CNN
+F 1 "D_Small" V 9505 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9550 4400 50  0001 C CNN
+F 3 "~" V 9550 4400 50  0001 C CNN
+	1    9550 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 60B7FD33
+P 9750 4200
+F 0 "SW54" H 9750 4485 50  0000 C CNN
+F 1 "SW_Push" H 9750 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9750 4400 50  0001 C CNN
+F 3 "~" H 9750 4400 50  0001 C CNN
+	1    9750 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 4200
+Connection ~ 8800 4500
+Wire Wire Line
+	8800 4200 8800 4300
+$Comp
+L Device:D_Small D53
+U 1 1 60B7FD29
+P 8800 4400
+F 0 "D53" V 8846 4330 50  0000 R CNN
+F 1 "D_Small" V 8755 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8800 4400 50  0001 C CNN
+F 3 "~" V 8800 4400 50  0001 C CNN
+	1    8800 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 60B7FD22
+P 9000 4200
+F 0 "SW53" H 9000 4485 50  0000 C CNN
+F 1 "SW_Push" H 9000 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 4400 50  0001 C CNN
+F 3 "~" H 9000 4400 50  0001 C CNN
+	1    9000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4500 8050 4500
+Connection ~ 8450 4200
+Connection ~ 8050 4500
+Wire Wire Line
+	8050 4200 8050 4300
+$Comp
+L Device:D_Small D52
+U 1 1 60B7FD17
+P 8050 4400
+F 0 "D52" V 8096 4330 50  0000 R CNN
+F 1 "D_Small" V 8005 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8050 4400 50  0001 C CNN
+F 3 "~" V 8050 4400 50  0001 C CNN
+	1    8050 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 60B7FD10
+P 8250 4200
+F 0 "SW52" H 8250 4485 50  0000 C CNN
+F 1 "SW_Push" H 8250 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8250 4400 50  0001 C CNN
+F 3 "~" H 8250 4400 50  0001 C CNN
+	1    8250 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 4200
+Connection ~ 7300 4500
+Wire Wire Line
+	7300 4200 7300 4300
+$Comp
+L Device:D_Small D51
+U 1 1 60B7FD06
+P 7300 4400
+F 0 "D51" V 7346 4330 50  0000 R CNN
+F 1 "D_Small" V 7255 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7300 4400 50  0001 C CNN
+F 3 "~" V 7300 4400 50  0001 C CNN
+	1    7300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 60B7FCFF
+P 7500 4200
+F 0 "SW51" H 7500 4485 50  0000 C CNN
+F 1 "SW_Push" H 7500 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7500 4400 50  0001 C CNN
+F 3 "~" H 7500 4400 50  0001 C CNN
+	1    7500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4500 4300 4500
+Wire Wire Line
+	5050 4500 5800 4500
+Wire Wire Line
+	5800 4500 6550 4500
+Connection ~ 6950 4200
+Connection ~ 6550 4500
+Wire Wire Line
+	6550 4200 6550 4300
+$Comp
+L Device:D_Small D50
+U 1 1 60B7FCF2
+P 6550 4400
+F 0 "D50" V 6596 4330 50  0000 R CNN
+F 1 "D_Small" V 6505 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6550 4400 50  0001 C CNN
+F 3 "~" V 6550 4400 50  0001 C CNN
+	1    6550 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 60B7FCEB
+P 6750 4200
+F 0 "SW50" H 6750 4485 50  0000 C CNN
+F 1 "SW_Push" H 6750 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6750 4400 50  0001 C CNN
+F 3 "~" H 6750 4400 50  0001 C CNN
+	1    6750 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 4200
+Connection ~ 5800 4500
+Wire Wire Line
+	5800 4200 5800 4300
+$Comp
+L Device:D_Small D49
+U 1 1 60B7FCE1
+P 5800 4400
+F 0 "D49" V 5846 4330 50  0000 R CNN
+F 1 "D_Small" V 5755 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5800 4400 50  0001 C CNN
+F 3 "~" V 5800 4400 50  0001 C CNN
+	1    5800 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW49
+U 1 1 60B7FCDA
+P 6000 4200
+F 0 "SW49" H 6000 4485 50  0000 C CNN
+F 1 "SW_Push" H 6000 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 4400 50  0001 C CNN
+F 3 "~" H 6000 4400 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4500 5050 4500
+Connection ~ 5450 4200
+Connection ~ 5050 4500
+Wire Wire Line
+	5050 4200 5050 4300
+$Comp
+L Device:D_Small D48
+U 1 1 60B7FCCF
+P 5050 4400
+F 0 "D48" V 5096 4330 50  0000 R CNN
+F 1 "D_Small" V 5005 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5050 4400 50  0001 C CNN
+F 3 "~" V 5050 4400 50  0001 C CNN
+	1    5050 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 60B7FCC8
+P 5250 4200
+F 0 "SW48" H 5250 4485 50  0000 C CNN
+F 1 "SW_Push" H 5250 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 4400 50  0001 C CNN
+F 3 "~" H 5250 4400 50  0001 C CNN
+	1    5250 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 4200
+Connection ~ 4300 4500
+Wire Wire Line
+	4300 4200 4300 4300
+$Comp
+L Device:D_Small D47
+U 1 1 60B7FCBE
+P 4300 4400
+F 0 "D47" V 4346 4330 50  0000 R CNN
+F 1 "D_Small" V 4255 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4300 4400 50  0001 C CNN
+F 3 "~" V 4300 4400 50  0001 C CNN
+	1    4300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW47
+U 1 1 60B7FCB7
+P 4500 4200
+F 0 "SW47" H 4500 4485 50  0000 C CNN
+F 1 "SW_Push" H 4500 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 4400 50  0001 C CNN
+F 3 "~" H 4500 4400 50  0001 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4500 2800 4500
+Wire Wire Line
+	2800 4500 3550 4500
+Connection ~ 3950 4200
+Connection ~ 3550 4500
+Wire Wire Line
+	3550 4200 3550 4300
+$Comp
+L Device:D_Small D46
+U 1 1 60B7FCAB
+P 3550 4400
+F 0 "D46" V 3596 4330 50  0000 R CNN
+F 1 "D_Small" V 3505 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3550 4400 50  0001 C CNN
+F 3 "~" V 3550 4400 50  0001 C CNN
+	1    3550 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 60B7FCA4
+P 3750 4200
+F 0 "SW46" H 3750 4485 50  0000 C CNN
+F 1 "SW_Push" H 3750 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3750 4400 50  0001 C CNN
+F 3 "~" H 3750 4400 50  0001 C CNN
+	1    3750 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 4200
+Connection ~ 2800 4500
+Wire Wire Line
+	2800 4200 2800 4300
+$Comp
+L Device:D_Small D45
+U 1 1 60B7FC9A
+P 2800 4400
+F 0 "D45" V 2846 4330 50  0000 R CNN
+F 1 "D_Small" V 2755 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2800 4400 50  0001 C CNN
+F 3 "~" V 2800 4400 50  0001 C CNN
+	1    2800 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 60B7FC93
+P 3000 4200
+F 0 "SW45" H 3000 4485 50  0000 C CNN
+F 1 "SW_Push" H 3000 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 4400 50  0001 C CNN
+F 3 "~" H 3000 4400 50  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4500 2050 4500
+Connection ~ 2450 4200
+Connection ~ 2050 4500
+Wire Wire Line
+	2050 4200 2050 4300
+$Comp
+L Device:D_Small D44
+U 1 1 60B7FC88
+P 2050 4400
+F 0 "D44" V 2096 4330 50  0000 R CNN
+F 1 "D_Small" V 2005 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2050 4400 50  0001 C CNN
+F 3 "~" V 2050 4400 50  0001 C CNN
+	1    2050 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 60B7FC81
+P 2250 4200
+F 0 "SW44" H 2250 4485 50  0000 C CNN
+F 1 "SW_Push" H 2250 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2250 4400 50  0001 C CNN
+F 3 "~" H 2250 4400 50  0001 C CNN
+	1    2250 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 4200
+Connection ~ 1300 4500
+Wire Wire Line
+	1050 4500 1300 4500
+Wire Wire Line
+	1300 4200 1300 4300
+$Comp
+L Device:D_Small D43
+U 1 1 60B7FC76
+P 1300 4400
+F 0 "D43" V 1346 4330 50  0000 R CNN
+F 1 "D_Small" V 1255 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 4400 50  0001 C CNN
+F 3 "~" V 1300 4400 50  0001 C CNN
+	1    1300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 60B7FC6F
+P 1500 4200
+F 0 "SW43" H 1500 4485 50  0000 C CNN
+F 1 "SW_Push" H 1500 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U-NoLED" H 1500 4400 50  0001 C CNN
+F 3 "~" H 1500 4400 50  0001 C CNN
+	1    1500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 2300 11450 3250
+Wire Wire Line
+	10700 2300 10700 3250
+Wire Wire Line
+	9950 2300 9950 3250
+Wire Wire Line
+	9200 2300 9200 3250
+Wire Wire Line
+	8450 2300 8450 3250
+Wire Wire Line
+	7700 2300 7700 3250
+Wire Wire Line
+	6950 2300 6950 3250
+Wire Wire Line
+	6200 2300 6200 3250
+Wire Wire Line
+	5450 2300 5450 3250
+Wire Wire Line
+	4700 2300 4700 3250
+Wire Wire Line
+	3950 2300 3950 3250
+Wire Wire Line
+	3200 2300 3200 3250
+Wire Wire Line
+	2450 2300 2450 3250
+Wire Wire Line
+	1700 2300 1700 3250
+Wire Wire Line
+	6550 3550 7300 3550
+Wire Wire Line
+	9550 3550 10300 3550
+Wire Wire Line
+	10300 3550 11050 3550
+Connection ~ 11450 3250
+Wire Wire Line
+	11050 3250 11050 3350
+$Comp
+L Device:D_Small D42
+U 1 1 60B4830E
+P 11050 3450
+F 0 "D42" V 11096 3380 50  0000 R CNN
+F 1 "D_Small" V 11005 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11050 3450 50  0001 C CNN
+F 3 "~" V 11050 3450 50  0001 C CNN
+	1    11050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 60B48307
+P 11250 3250
+F 0 "SW42" H 11250 3535 50  0000 C CNN
+F 1 "SW_Push" H 11250 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 11250 3450 50  0001 C CNN
+F 3 "~" H 11250 3450 50  0001 C CNN
+	1    11250 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 3250
+Connection ~ 10300 3550
+Wire Wire Line
+	10300 3250 10300 3350
+$Comp
+L Device:D_Small D41
+U 1 1 60B482FD
+P 10300 3450
+F 0 "D41" V 10346 3380 50  0000 R CNN
+F 1 "D_Small" V 10255 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10300 3450 50  0001 C CNN
+F 3 "~" V 10300 3450 50  0001 C CNN
+	1    10300 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 60B482F6
+P 10500 3250
+F 0 "SW41" H 10500 3535 50  0000 C CNN
+F 1 "SW_Push" H 10500 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 3450 50  0001 C CNN
+F 3 "~" H 10500 3450 50  0001 C CNN
+	1    10500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3550 8800 3550
+Wire Wire Line
+	8800 3550 9550 3550
+Connection ~ 9950 3250
+Connection ~ 9550 3550
+Wire Wire Line
+	9550 3250 9550 3350
+$Comp
+L Device:D_Small D40
+U 1 1 60B482EA
+P 9550 3450
+F 0 "D40" V 9596 3380 50  0000 R CNN
+F 1 "D_Small" V 9505 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9550 3450 50  0001 C CNN
+F 3 "~" V 9550 3450 50  0001 C CNN
+	1    9550 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 60B482E3
+P 9750 3250
+F 0 "SW40" H 9750 3535 50  0000 C CNN
+F 1 "SW_Push" H 9750 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9750 3450 50  0001 C CNN
+F 3 "~" H 9750 3450 50  0001 C CNN
+	1    9750 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 3250
+Connection ~ 8800 3550
+Wire Wire Line
+	8800 3250 8800 3350
+$Comp
+L Device:D_Small D39
+U 1 1 60B482D9
+P 8800 3450
+F 0 "D39" V 8846 3380 50  0000 R CNN
+F 1 "D_Small" V 8755 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8800 3450 50  0001 C CNN
+F 3 "~" V 8800 3450 50  0001 C CNN
+	1    8800 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 60B482D2
+P 9000 3250
+F 0 "SW39" H 9000 3535 50  0000 C CNN
+F 1 "SW_Push" H 9000 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 3450 50  0001 C CNN
+F 3 "~" H 9000 3450 50  0001 C CNN
+	1    9000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3550 8050 3550
+Connection ~ 8450 3250
+Connection ~ 8050 3550
+Wire Wire Line
+	8050 3250 8050 3350
+$Comp
+L Device:D_Small D38
+U 1 1 60B482C7
+P 8050 3450
+F 0 "D38" V 8096 3380 50  0000 R CNN
+F 1 "D_Small" V 8005 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8050 3450 50  0001 C CNN
+F 3 "~" V 8050 3450 50  0001 C CNN
+	1    8050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 60B482C0
+P 8250 3250
+F 0 "SW38" H 8250 3535 50  0000 C CNN
+F 1 "SW_Push" H 8250 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8250 3450 50  0001 C CNN
+F 3 "~" H 8250 3450 50  0001 C CNN
+	1    8250 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 3250
+Connection ~ 7300 3550
+Wire Wire Line
+	7300 3250 7300 3350
+$Comp
+L Device:D_Small D37
+U 1 1 60B482B6
+P 7300 3450
+F 0 "D37" V 7346 3380 50  0000 R CNN
+F 1 "D_Small" V 7255 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7300 3450 50  0001 C CNN
+F 3 "~" V 7300 3450 50  0001 C CNN
+	1    7300 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 60B482AF
+P 7500 3250
+F 0 "SW37" H 7500 3535 50  0000 C CNN
+F 1 "SW_Push" H 7500 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7500 3450 50  0001 C CNN
+F 3 "~" H 7500 3450 50  0001 C CNN
+	1    7500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3550 4300 3550
+Wire Wire Line
+	5050 3550 5800 3550
+Wire Wire Line
+	5800 3550 6550 3550
+Connection ~ 6950 3250
+Connection ~ 6550 3550
+Wire Wire Line
+	6550 3250 6550 3350
+$Comp
+L Device:D_Small D36
+U 1 1 60B482A2
+P 6550 3450
+F 0 "D36" V 6596 3380 50  0000 R CNN
+F 1 "D_Small" V 6505 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6550 3450 50  0001 C CNN
+F 3 "~" V 6550 3450 50  0001 C CNN
+	1    6550 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 60B4829B
+P 6750 3250
+F 0 "SW36" H 6750 3535 50  0000 C CNN
+F 1 "SW_Push" H 6750 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6750 3450 50  0001 C CNN
+F 3 "~" H 6750 3450 50  0001 C CNN
+	1    6750 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 3250
+Connection ~ 5800 3550
+Wire Wire Line
+	5800 3250 5800 3350
+$Comp
+L Device:D_Small D35
+U 1 1 60B48291
+P 5800 3450
+F 0 "D35" V 5846 3380 50  0000 R CNN
+F 1 "D_Small" V 5755 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5800 3450 50  0001 C CNN
+F 3 "~" V 5800 3450 50  0001 C CNN
+	1    5800 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 60B4828A
+P 6000 3250
+F 0 "SW35" H 6000 3535 50  0000 C CNN
+F 1 "SW_Push" H 6000 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 3450 50  0001 C CNN
+F 3 "~" H 6000 3450 50  0001 C CNN
+	1    6000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3550 5050 3550
+Connection ~ 5450 3250
+Connection ~ 5050 3550
+Wire Wire Line
+	5050 3250 5050 3350
+$Comp
+L Device:D_Small D34
+U 1 1 60B4827F
+P 5050 3450
+F 0 "D34" V 5096 3380 50  0000 R CNN
+F 1 "D_Small" V 5005 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5050 3450 50  0001 C CNN
+F 3 "~" V 5050 3450 50  0001 C CNN
+	1    5050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 60B48278
+P 5250 3250
+F 0 "SW34" H 5250 3535 50  0000 C CNN
+F 1 "SW_Push" H 5250 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 3450 50  0001 C CNN
+F 3 "~" H 5250 3450 50  0001 C CNN
+	1    5250 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 3250
+Connection ~ 4300 3550
+Wire Wire Line
+	4300 3250 4300 3350
+$Comp
+L Device:D_Small D33
+U 1 1 60B4826E
+P 4300 3450
+F 0 "D33" V 4346 3380 50  0000 R CNN
+F 1 "D_Small" V 4255 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4300 3450 50  0001 C CNN
+F 3 "~" V 4300 3450 50  0001 C CNN
+	1    4300 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 60B48267
+P 4500 3250
+F 0 "SW33" H 4500 3535 50  0000 C CNN
+F 1 "SW_Push" H 4500 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 3450 50  0001 C CNN
+F 3 "~" H 4500 3450 50  0001 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3550 2800 3550
+Wire Wire Line
+	2800 3550 3550 3550
+Connection ~ 3950 3250
+Connection ~ 3550 3550
+Wire Wire Line
+	3550 3250 3550 3350
+$Comp
+L Device:D_Small D32
+U 1 1 60B4825B
+P 3550 3450
+F 0 "D32" V 3596 3380 50  0000 R CNN
+F 1 "D_Small" V 3505 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3550 3450 50  0001 C CNN
+F 3 "~" V 3550 3450 50  0001 C CNN
+	1    3550 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 60B48254
+P 3750 3250
+F 0 "SW32" H 3750 3535 50  0000 C CNN
+F 1 "SW_Push" H 3750 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3750 3450 50  0001 C CNN
+F 3 "~" H 3750 3450 50  0001 C CNN
+	1    3750 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3250
+Connection ~ 2800 3550
+Wire Wire Line
+	2800 3250 2800 3350
+$Comp
+L Device:D_Small D31
+U 1 1 60B4824A
+P 2800 3450
+F 0 "D31" V 2846 3380 50  0000 R CNN
+F 1 "D_Small" V 2755 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2800 3450 50  0001 C CNN
+F 3 "~" V 2800 3450 50  0001 C CNN
+	1    2800 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 60B48243
+P 3000 3250
+F 0 "SW31" H 3000 3535 50  0000 C CNN
+F 1 "SW_Push" H 3000 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 3450 50  0001 C CNN
+F 3 "~" H 3000 3450 50  0001 C CNN
+	1    3000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3550 2050 3550
+Connection ~ 2450 3250
+Connection ~ 2050 3550
+Wire Wire Line
+	2050 3250 2050 3350
+$Comp
+L Device:D_Small D30
+U 1 1 60B48238
+P 2050 3450
+F 0 "D30" V 2096 3380 50  0000 R CNN
+F 1 "D_Small" V 2005 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2050 3450 50  0001 C CNN
+F 3 "~" V 2050 3450 50  0001 C CNN
+	1    2050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 60B48231
+P 2250 3250
+F 0 "SW30" H 2250 3535 50  0000 C CNN
+F 1 "SW_Push" H 2250 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2250 3450 50  0001 C CNN
+F 3 "~" H 2250 3450 50  0001 C CNN
+	1    2250 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 3250
+Connection ~ 1300 3550
+Wire Wire Line
+	1050 3550 1300 3550
+Wire Wire Line
+	1300 3250 1300 3350
+$Comp
+L Device:D_Small D29
+U 1 1 60B48226
+P 1300 3450
+F 0 "D29" V 1346 3380 50  0000 R CNN
+F 1 "D_Small" V 1255 3380 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 3450 50  0001 C CNN
+F 3 "~" V 1300 3450 50  0001 C CNN
+	1    1300 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 60B4821F
+P 1500 3250
+F 0 "SW29" H 1500 3535 50  0000 C CNN
+F 1 "SW_Push" H 1500 3444 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 1500 3450 50  0001 C CNN
+F 3 "~" H 1500 3450 50  0001 C CNN
+	1    1500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 1350 10700 2300
+Wire Wire Line
+	9950 1350 9950 2300
+Wire Wire Line
+	9200 1350 9200 2300
+Wire Wire Line
+	8450 1350 8450 2300
+Wire Wire Line
+	7700 1350 7700 2300
+Wire Wire Line
+	6950 1350 6950 2300
+Wire Wire Line
+	6200 1350 6200 2300
+Wire Wire Line
+	5450 1350 5450 2300
+Wire Wire Line
+	4700 1350 4700 2300
+Wire Wire Line
+	3950 1350 3950 2300
+Wire Wire Line
+	3200 1350 3200 2300
+Wire Wire Line
+	2450 1350 2450 2300
+Wire Wire Line
+	1700 1350 1700 2300
+Wire Wire Line
+	6550 2600 7300 2600
+Wire Wire Line
+	9550 2600 10300 2600
+Wire Wire Line
+	10300 2600 11050 2600
+Connection ~ 11450 2300
+Wire Wire Line
+	11050 2300 11050 2400
+$Comp
+L Device:D_Small D28
+U 1 1 60B16644
+P 11050 2500
+F 0 "D28" V 11096 2430 50  0000 R CNN
+F 1 "D_Small" V 11005 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11050 2500 50  0001 C CNN
+F 3 "~" V 11050 2500 50  0001 C CNN
+	1    11050 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 60B1663D
+P 11250 2300
+F 0 "SW28" H 11250 2585 50  0000 C CNN
+F 1 "SW_Push" H 11250 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 11250 2500 50  0001 C CNN
+F 3 "~" H 11250 2500 50  0001 C CNN
+	1    11250 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 2300
+Connection ~ 10300 2600
+Wire Wire Line
+	10300 2300 10300 2400
+$Comp
+L Device:D_Small D27
+U 1 1 60B16633
+P 10300 2500
+F 0 "D27" V 10346 2430 50  0000 R CNN
+F 1 "D_Small" V 10255 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10300 2500 50  0001 C CNN
+F 3 "~" V 10300 2500 50  0001 C CNN
+	1    10300 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 60B1662C
+P 10500 2300
+F 0 "SW27" H 10500 2585 50  0000 C CNN
+F 1 "SW_Push" H 10500 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 2500 50  0001 C CNN
+F 3 "~" H 10500 2500 50  0001 C CNN
+	1    10500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2600 8800 2600
+Wire Wire Line
+	8800 2600 9550 2600
+Connection ~ 9950 2300
+Connection ~ 9550 2600
+Wire Wire Line
+	9550 2300 9550 2400
+$Comp
+L Device:D_Small D26
+U 1 1 60B16620
+P 9550 2500
+F 0 "D26" V 9596 2430 50  0000 R CNN
+F 1 "D_Small" V 9505 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9550 2500 50  0001 C CNN
+F 3 "~" V 9550 2500 50  0001 C CNN
+	1    9550 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 60B16619
+P 9750 2300
+F 0 "SW26" H 9750 2585 50  0000 C CNN
+F 1 "SW_Push" H 9750 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9750 2500 50  0001 C CNN
+F 3 "~" H 9750 2500 50  0001 C CNN
+	1    9750 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 2300
+Connection ~ 8800 2600
+Wire Wire Line
+	8800 2300 8800 2400
+$Comp
+L Device:D_Small D25
+U 1 1 60B1660F
+P 8800 2500
+F 0 "D25" V 8846 2430 50  0000 R CNN
+F 1 "D_Small" V 8755 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8800 2500 50  0001 C CNN
+F 3 "~" V 8800 2500 50  0001 C CNN
+	1    8800 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 60B16608
+P 9000 2300
+F 0 "SW25" H 9000 2585 50  0000 C CNN
+F 1 "SW_Push" H 9000 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2600 8050 2600
+Connection ~ 8450 2300
+Connection ~ 8050 2600
+Wire Wire Line
+	8050 2300 8050 2400
+$Comp
+L Device:D_Small D24
+U 1 1 60B165FD
+P 8050 2500
+F 0 "D24" V 8096 2430 50  0000 R CNN
+F 1 "D_Small" V 8005 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8050 2500 50  0001 C CNN
+F 3 "~" V 8050 2500 50  0001 C CNN
+	1    8050 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 60B165F6
+P 8250 2300
+F 0 "SW24" H 8250 2585 50  0000 C CNN
+F 1 "SW_Push" H 8250 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8250 2500 50  0001 C CNN
+F 3 "~" H 8250 2500 50  0001 C CNN
+	1    8250 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 2300
+Connection ~ 7300 2600
+Wire Wire Line
+	7300 2300 7300 2400
+$Comp
+L Device:D_Small D23
+U 1 1 60B165EC
+P 7300 2500
+F 0 "D23" V 7346 2430 50  0000 R CNN
+F 1 "D_Small" V 7255 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7300 2500 50  0001 C CNN
+F 3 "~" V 7300 2500 50  0001 C CNN
+	1    7300 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 60B165E5
+P 7500 2300
+F 0 "SW23" H 7500 2585 50  0000 C CNN
+F 1 "SW_Push" H 7500 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7500 2500 50  0001 C CNN
+F 3 "~" H 7500 2500 50  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2600 4300 2600
+Wire Wire Line
+	5050 2600 5800 2600
+Wire Wire Line
+	5800 2600 6550 2600
+Connection ~ 6950 2300
+Connection ~ 6550 2600
+Wire Wire Line
+	6550 2300 6550 2400
+$Comp
+L Device:D_Small D22
+U 1 1 60B165D8
+P 6550 2500
+F 0 "D22" V 6596 2430 50  0000 R CNN
+F 1 "D_Small" V 6505 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6550 2500 50  0001 C CNN
+F 3 "~" V 6550 2500 50  0001 C CNN
+	1    6550 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 60B165D1
+P 6750 2300
+F 0 "SW22" H 6750 2585 50  0000 C CNN
+F 1 "SW_Push" H 6750 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6750 2500 50  0001 C CNN
+F 3 "~" H 6750 2500 50  0001 C CNN
+	1    6750 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 2300
+Connection ~ 5800 2600
+Wire Wire Line
+	5800 2300 5800 2400
+$Comp
+L Device:D_Small D21
+U 1 1 60B165C7
+P 5800 2500
+F 0 "D21" V 5846 2430 50  0000 R CNN
+F 1 "D_Small" V 5755 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5800 2500 50  0001 C CNN
+F 3 "~" V 5800 2500 50  0001 C CNN
+	1    5800 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 60B165C0
+P 6000 2300
+F 0 "SW21" H 6000 2585 50  0000 C CNN
+F 1 "SW_Push" H 6000 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 2500 50  0001 C CNN
+F 3 "~" H 6000 2500 50  0001 C CNN
+	1    6000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2600 5050 2600
+Connection ~ 5450 2300
+Connection ~ 5050 2600
+Wire Wire Line
+	5050 2300 5050 2400
+$Comp
+L Device:D_Small D20
+U 1 1 60B165B5
+P 5050 2500
+F 0 "D20" V 5096 2430 50  0000 R CNN
+F 1 "D_Small" V 5005 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5050 2500 50  0001 C CNN
+F 3 "~" V 5050 2500 50  0001 C CNN
+	1    5050 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 60B165AE
+P 5250 2300
+F 0 "SW20" H 5250 2585 50  0000 C CNN
+F 1 "SW_Push" H 5250 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 2500 50  0001 C CNN
+F 3 "~" H 5250 2500 50  0001 C CNN
+	1    5250 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 2300
+Connection ~ 4300 2600
+Wire Wire Line
+	4300 2300 4300 2400
+$Comp
+L Device:D_Small D19
+U 1 1 60B165A4
+P 4300 2500
+F 0 "D19" V 4346 2430 50  0000 R CNN
+F 1 "D_Small" V 4255 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4300 2500 50  0001 C CNN
+F 3 "~" V 4300 2500 50  0001 C CNN
+	1    4300 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 60B1659D
+P 4500 2300
+F 0 "SW19" H 4500 2585 50  0000 C CNN
+F 1 "SW_Push" H 4500 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 2500 50  0001 C CNN
+F 3 "~" H 4500 2500 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2600 2800 2600
+Wire Wire Line
+	2800 2600 3550 2600
+Connection ~ 3950 2300
+Connection ~ 3550 2600
+Wire Wire Line
+	3550 2300 3550 2400
+$Comp
+L Device:D_Small D18
+U 1 1 60B16591
+P 3550 2500
+F 0 "D18" V 3596 2430 50  0000 R CNN
+F 1 "D_Small" V 3505 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3550 2500 50  0001 C CNN
+F 3 "~" V 3550 2500 50  0001 C CNN
+	1    3550 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 60B1658A
+P 3750 2300
+F 0 "SW18" H 3750 2585 50  0000 C CNN
+F 1 "SW_Push" H 3750 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3750 2500 50  0001 C CNN
+F 3 "~" H 3750 2500 50  0001 C CNN
+	1    3750 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 2300
+Connection ~ 2800 2600
+Wire Wire Line
+	2800 2300 2800 2400
+$Comp
+L Device:D_Small D17
+U 1 1 60B16580
+P 2800 2500
+F 0 "D17" V 2846 2430 50  0000 R CNN
+F 1 "D_Small" V 2755 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2800 2500 50  0001 C CNN
+F 3 "~" V 2800 2500 50  0001 C CNN
+	1    2800 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 60B16579
+P 3000 2300
+F 0 "SW17" H 3000 2585 50  0000 C CNN
+F 1 "SW_Push" H 3000 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 2500 50  0001 C CNN
+F 3 "~" H 3000 2500 50  0001 C CNN
+	1    3000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2600 2050 2600
+Connection ~ 2450 2300
+Connection ~ 2050 2600
+Wire Wire Line
+	2050 2300 2050 2400
+$Comp
+L Device:D_Small D16
+U 1 1 60B1656E
+P 2050 2500
+F 0 "D16" V 2096 2430 50  0000 R CNN
+F 1 "D_Small" V 2005 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2050 2500 50  0001 C CNN
+F 3 "~" V 2050 2500 50  0001 C CNN
+	1    2050 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 60B16567
+P 2250 2300
+F 0 "SW16" H 2250 2585 50  0000 C CNN
+F 1 "SW_Push" H 2250 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2250 2500 50  0001 C CNN
+F 3 "~" H 2250 2500 50  0001 C CNN
+	1    2250 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 2300
+Connection ~ 1300 2600
+Wire Wire Line
+	1050 2600 1300 2600
+Wire Wire Line
+	1300 2300 1300 2400
+$Comp
+L Device:D_Small D15
+U 1 1 60B1655C
+P 1300 2500
+F 0 "D15" V 1346 2430 50  0000 R CNN
+F 1 "D_Small" V 1255 2430 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 2500 50  0001 C CNN
+F 3 "~" V 1300 2500 50  0001 C CNN
+	1    1300 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 60B16555
+P 1500 2300
+F 0 "SW15" H 1500 2585 50  0000 C CNN
+F 1 "SW_Push" H 1500 2494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1500 2500 50  0001 C CNN
+F 3 "~" H 1500 2500 50  0001 C CNN
+	1    1500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1650 7300 1650
+Wire Wire Line
+	9550 1650 10300 1650
+Wire Wire Line
+	10300 1650 11050 1650
+Wire Wire Line
+	11050 1350 11050 1450
+$Comp
+L Device:D_Small D14
+U 1 1 60AB99CD
+P 11050 1550
+F 0 "D14" V 11096 1480 50  0000 R CNN
+F 1 "D_Small" V 11005 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11050 1550 50  0001 C CNN
+F 3 "~" V 11050 1550 50  0001 C CNN
+	1    11050 1550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10700 1350
+Connection ~ 10300 1650
+Wire Wire Line
+	10300 1350 10300 1450
+$Comp
+L Device:D_Small D13
+U 1 1 60AB99BC
+P 10300 1550
+F 0 "D13" V 10346 1480 50  0000 R CNN
+F 1 "D_Small" V 10255 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10300 1550 50  0001 C CNN
+F 3 "~" V 10300 1550 50  0001 C CNN
+	1    10300 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 1350 10700 900 
+$Comp
+L Switch:SW_Push SW14
+U 1 1 60AB99B5
+P 10500 1350
+F 0 "SW14" H 10500 1635 50  0000 C CNN
+F 1 "SW_Push" H 10500 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 1550 50  0001 C CNN
+F 3 "~" H 10500 1550 50  0001 C CNN
+	1    10500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1650 8800 1650
+Wire Wire Line
+	8800 1650 9550 1650
+Connection ~ 9950 1350
+Connection ~ 9550 1650
+Wire Wire Line
+	9550 1350 9550 1450
+$Comp
+L Device:D_Small D12
+U 1 1 60AB99A9
+P 9550 1550
+F 0 "D12" V 9596 1480 50  0000 R CNN
+F 1 "D_Small" V 9505 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9550 1550 50  0001 C CNN
+F 3 "~" V 9550 1550 50  0001 C CNN
+	1    9550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9950 1350 9950 900 
+$Comp
+L Switch:SW_Push SW13
+U 1 1 60AB99A2
+P 9750 1350
+F 0 "SW13" H 9750 1635 50  0000 C CNN
+F 1 "SW_Push" H 9750 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9750 1550 50  0001 C CNN
+F 3 "~" H 9750 1550 50  0001 C CNN
+	1    9750 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 1350
+Connection ~ 8800 1650
+Wire Wire Line
+	8800 1350 8800 1450
+$Comp
+L Device:D_Small D11
+U 1 1 60AB9998
+P 8800 1550
+F 0 "D11" V 8846 1480 50  0000 R CNN
+F 1 "D_Small" V 8755 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8800 1550 50  0001 C CNN
+F 3 "~" V 8800 1550 50  0001 C CNN
+	1    8800 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 1350 9200 900 
+$Comp
+L Switch:SW_Push SW12
+U 1 1 60AB9991
+P 9000 1350
+F 0 "SW12" H 9000 1635 50  0000 C CNN
+F 1 "SW_Push" H 9000 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 1550 50  0001 C CNN
+F 3 "~" H 9000 1550 50  0001 C CNN
+	1    9000 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1650 8050 1650
+Connection ~ 8450 1350
+Connection ~ 8050 1650
+Wire Wire Line
+	8050 1350 8050 1450
+$Comp
+L Device:D_Small D10
+U 1 1 60AB9986
+P 8050 1550
+F 0 "D10" V 8096 1480 50  0000 R CNN
+F 1 "D_Small" V 8005 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8050 1550 50  0001 C CNN
+F 3 "~" V 8050 1550 50  0001 C CNN
+	1    8050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 1350 8450 900 
+$Comp
+L Switch:SW_Push SW11
+U 1 1 60AB997F
+P 8250 1350
+F 0 "SW11" H 8250 1635 50  0000 C CNN
+F 1 "SW_Push" H 8250 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8250 1550 50  0001 C CNN
+F 3 "~" H 8250 1550 50  0001 C CNN
+	1    8250 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 1350
+Connection ~ 7300 1650
+Wire Wire Line
+	7300 1350 7300 1450
+$Comp
+L Device:D_Small D9
+U 1 1 60AB9974
+P 7300 1550
+F 0 "D9" V 7346 1480 50  0000 R CNN
+F 1 "D_Small" V 7255 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7300 1550 50  0001 C CNN
+F 3 "~" V 7300 1550 50  0001 C CNN
+	1    7300 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1350 7700 900 
+$Comp
+L Switch:SW_Push SW10
+U 1 1 60AB996D
+P 7500 1350
+F 0 "SW10" H 7500 1635 50  0000 C CNN
+F 1 "SW_Push" H 7500 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7500 1550 50  0001 C CNN
+F 3 "~" H 7500 1550 50  0001 C CNN
+	1    7500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1650 4300 1650
+Wire Wire Line
+	5050 1650 5800 1650
+Wire Wire Line
+	5800 1650 6550 1650
+Connection ~ 6950 1350
+Connection ~ 6550 1650
+Wire Wire Line
+	6550 1350 6550 1450
+$Comp
+L Device:D_Small D8
+U 1 1 60A97B61
+P 6550 1550
+F 0 "D8" V 6596 1480 50  0000 R CNN
+F 1 "D_Small" V 6505 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6550 1550 50  0001 C CNN
+F 3 "~" V 6550 1550 50  0001 C CNN
+	1    6550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 1350 6950 900 
+$Comp
+L Switch:SW_Push SW9
+U 1 1 60A97B5A
+P 6750 1350
+F 0 "SW9" H 6750 1635 50  0000 C CNN
+F 1 "SW_Push" H 6750 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6750 1550 50  0001 C CNN
+F 3 "~" H 6750 1550 50  0001 C CNN
+	1    6750 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 1350
+Connection ~ 5800 1650
+Wire Wire Line
+	5800 1350 5800 1450
+$Comp
+L Device:D_Small D7
+U 1 1 60A97B50
+P 5800 1550
+F 0 "D7" V 5846 1480 50  0000 R CNN
+F 1 "D_Small" V 5755 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5800 1550 50  0001 C CNN
+F 3 "~" V 5800 1550 50  0001 C CNN
+	1    5800 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1350 6200 900 
+$Comp
+L Switch:SW_Push SW8
+U 1 1 60A97B49
+P 6000 1350
+F 0 "SW8" H 6000 1635 50  0000 C CNN
+F 1 "SW_Push" H 6000 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 1550 50  0001 C CNN
+F 3 "~" H 6000 1550 50  0001 C CNN
+	1    6000 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1650 5050 1650
+Connection ~ 5450 1350
+Connection ~ 5050 1650
+Wire Wire Line
+	5050 1350 5050 1450
+$Comp
+L Device:D_Small D6
+U 1 1 60A97B3E
+P 5050 1550
+F 0 "D6" V 5096 1480 50  0000 R CNN
+F 1 "D_Small" V 5005 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5050 1550 50  0001 C CNN
+F 3 "~" V 5050 1550 50  0001 C CNN
+	1    5050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 1350 5450 900 
+$Comp
+L Switch:SW_Push SW7
+U 1 1 60A97B37
+P 5250 1350
+F 0 "SW7" H 5250 1635 50  0000 C CNN
+F 1 "SW_Push" H 5250 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5250 1550 50  0001 C CNN
+F 3 "~" H 5250 1550 50  0001 C CNN
+	1    5250 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 1350
+Connection ~ 4300 1650
+Wire Wire Line
+	4300 1350 4300 1450
+$Comp
+L Device:D_Small D5
+U 1 1 60A97B2C
+P 4300 1550
+F 0 "D5" V 4346 1480 50  0000 R CNN
+F 1 "D_Small" V 4255 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4300 1550 50  0001 C CNN
+F 3 "~" V 4300 1550 50  0001 C CNN
+	1    4300 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 1350 4700 900 
+$Comp
+L Switch:SW_Push SW6
+U 1 1 60A97B25
+P 4500 1350
+F 0 "SW6" H 4500 1635 50  0000 C CNN
+F 1 "SW_Push" H 4500 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 1550 50  0001 C CNN
+F 3 "~" H 4500 1550 50  0001 C CNN
+	1    4500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1650 2800 1650
+Wire Wire Line
+	2800 1650 3550 1650
+Connection ~ 3950 1350
+Connection ~ 3550 1650
+Wire Wire Line
+	3550 1350 3550 1450
+$Comp
+L Device:D_Small D4
+U 1 1 60A6E370
+P 3550 1550
+F 0 "D4" V 3596 1480 50  0000 R CNN
+F 1 "D_Small" V 3505 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3550 1550 50  0001 C CNN
+F 3 "~" V 3550 1550 50  0001 C CNN
+	1    3550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 1350 3950 900 
+$Comp
+L Switch:SW_Push SW5
+U 1 1 60A6E369
+P 3750 1350
+F 0 "SW5" H 3750 1635 50  0000 C CNN
+F 1 "SW_Push" H 3750 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3750 1550 50  0001 C CNN
+F 3 "~" H 3750 1550 50  0001 C CNN
+	1    3750 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 1350
+Connection ~ 2800 1650
+Wire Wire Line
+	2800 1350 2800 1450
+$Comp
+L Device:D_Small D3
+U 1 1 60A6E35E
+P 2800 1550
+F 0 "D3" V 2846 1480 50  0000 R CNN
+F 1 "D_Small" V 2755 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2800 1550 50  0001 C CNN
+F 3 "~" V 2800 1550 50  0001 C CNN
+	1    2800 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1350 3200 900 
+$Comp
+L Switch:SW_Push SW4
+U 1 1 60A6E357
+P 3000 1350
+F 0 "SW4" H 3000 1635 50  0000 C CNN
+F 1 "SW_Push" H 3000 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 1550 50  0001 C CNN
+F 3 "~" H 3000 1550 50  0001 C CNN
+	1    3000 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1650 2050 1650
+Connection ~ 2450 1350
+Connection ~ 2050 1650
+Wire Wire Line
+	2050 1350 2050 1450
+$Comp
+L Device:D_Small D2
+U 1 1 60A48D6C
+P 2050 1550
+F 0 "D2" V 2096 1480 50  0000 R CNN
+F 1 "D_Small" V 2005 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2050 1550 50  0001 C CNN
+F 3 "~" V 2050 1550 50  0001 C CNN
+	1    2050 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 1350 2450 900 
+$Comp
+L Switch:SW_Push SW3
+U 1 1 60A48D65
+P 2250 1350
+F 0 "SW3" H 2250 1635 50  0000 C CNN
+F 1 "SW_Push" H 2250 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2250 1550 50  0001 C CNN
+F 3 "~" H 2250 1550 50  0001 C CNN
+	1    2250 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 1350
+Connection ~ 1300 1650
+Wire Wire Line
+	1050 1650 1300 1650
+Wire Wire Line
+	1300 1350 1300 1450
+$Comp
+L Device:D_Small D1
+U 1 1 6090DAF6
+P 1300 1550
+F 0 "D1" V 1346 1480 50  0000 R CNN
+F 1 "D_Small" V 1255 1480 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 1550 50  0001 C CNN
+F 3 "~" V 1300 1550 50  0001 C CNN
+	1    1300 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1350 1700 900 
+$Comp
+L Switch:SW_Push SW2
+U 1 1 608D5EC5
+P 1500 1350
+F 0 "SW2" H 1500 1635 50  0000 C CNN
+F 1 "SW_Push" H 1500 1544 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1500 1550 50  0001 C CNN
+F 3 "~" H 1500 1550 50  0001 C CNN
+	1    1500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW74
+U 1 1 60C2DEC0
+P 5250 6100
+F 0 "SW74" H 5250 6385 50  0000 C CNN
+F 1 "SW_Push" H 5250 6294 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.25U-NoLED" H 5250 6300 50  0001 C CNN
+F 3 "~" H 5250 6300 50  0001 C CNN
+	1    5250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 606B6302
+P 11150 700
+F 0 "#PWR032" H 11150 450 50  0001 C CNN
+F 1 "GND" H 11100 650 50  0000 R CNN
+F 2 "" H 11150 700 50  0001 C CNN
+F 3 "" H 11150 700 50  0001 C CNN
+	1    11150 700 
+	-1   0    0    1   
+$EndComp
+Text GLabel 11050 750  0    50   Input ~ 0
+B1
+Text GLabel 11250 750  2    50   Input ~ 0
+A1
+Wire Wire Line
+	11150 700  11150 750 
+$Comp
+L Device:Rotary_Encoder_Switch RE1
+U 1 1 606B630C
+P 11150 1050
+F 0 "RE1" H 11150 1417 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 11300 1500 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 11000 1210 50  0001 C CNN
+F 3 "~" H 11150 1310 50  0001 C CNN
+	1    11150 1050
+	0    1    1    0   
+$EndComp
+Text Notes 10750 750  0    89   ~ 0
+Rotary Encoder\n\n
+Wire Wire Line
+	11450 900  11450 1350
+Wire Wire Line
+	11250 1350 11450 1350
+Connection ~ 11450 1350
+Wire Wire Line
+	11450 1350 11450 2300
+$EndSCHEMATC
