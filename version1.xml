@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\dakot\Documents\Github\pcb-design\version1\version1.sch</source>
-    <date>4/10/2021 1:55:45 AM</date>
+    <source>C:\Users\dakot\Documents\Github\pcb-design\version1.sch</source>
+    <date>6/1/2021 12:06:38 AM</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -101,7 +101,7 @@
     </comp>
     <comp ref="J2">
       <value>Conn_01x04</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -146,14 +146,6 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6075CF25</tstamp>
-    </comp>
-    <comp ref="H6">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6075CF2B</tstamp>
     </comp>
     <comp ref="H2">
       <value>MountingHole</value>
@@ -212,7 +204,7 @@
       <tstamp>60654FD0</tstamp>
     </comp>
     <comp ref="C4">
-      <value>.1uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -228,7 +220,7 @@
       <tstamp>60636FCB</tstamp>
     </comp>
     <comp ref="C2">
-      <value>.1uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -252,7 +244,7 @@
       <tstamp>6061A4B7</tstamp>
     </comp>
     <comp ref="C6">
-      <value>.1uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -357,7 +349,7 @@
     </comp>
     <comp ref="SW71">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.25U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -365,7 +357,7 @@
     </comp>
     <comp ref="D80">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -373,7 +365,7 @@
     </comp>
     <comp ref="SW80">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -381,7 +373,7 @@
     </comp>
     <comp ref="D79">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -389,7 +381,7 @@
     </comp>
     <comp ref="SW79">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -397,7 +389,7 @@
     </comp>
     <comp ref="D78">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -405,7 +397,7 @@
     </comp>
     <comp ref="SW78">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -413,7 +405,7 @@
     </comp>
     <comp ref="D77">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -421,7 +413,7 @@
     </comp>
     <comp ref="SW77">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -429,7 +421,7 @@
     </comp>
     <comp ref="D76">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -437,7 +429,7 @@
     </comp>
     <comp ref="SW76">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -445,7 +437,7 @@
     </comp>
     <comp ref="D75">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -453,7 +445,7 @@
     </comp>
     <comp ref="SW75">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -461,7 +453,7 @@
     </comp>
     <comp ref="D74">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -469,7 +461,7 @@
     </comp>
     <comp ref="D73">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -477,7 +469,7 @@
     </comp>
     <comp ref="SW73">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.25U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -485,7 +477,7 @@
     </comp>
     <comp ref="D72">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -493,7 +485,7 @@
     </comp>
     <comp ref="SW72">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.25U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -501,7 +493,7 @@
     </comp>
     <comp ref="D71">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -509,7 +501,7 @@
     </comp>
     <comp ref="D70">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -517,7 +509,7 @@
     </comp>
     <comp ref="SW70">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -525,7 +517,7 @@
     </comp>
     <comp ref="D69">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -533,7 +525,7 @@
     </comp>
     <comp ref="SW69">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -541,7 +533,7 @@
     </comp>
     <comp ref="D68">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -549,7 +541,7 @@
     </comp>
     <comp ref="SW68">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1.75U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.75U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -557,7 +549,7 @@
     </comp>
     <comp ref="D67">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -565,7 +557,7 @@
     </comp>
     <comp ref="SW67">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -573,7 +565,7 @@
     </comp>
     <comp ref="D66">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -581,7 +573,7 @@
     </comp>
     <comp ref="SW66">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -589,7 +581,7 @@
     </comp>
     <comp ref="D65">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -597,7 +589,7 @@
     </comp>
     <comp ref="SW65">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -605,7 +597,7 @@
     </comp>
     <comp ref="D64">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -613,7 +605,7 @@
     </comp>
     <comp ref="SW64">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -621,7 +613,7 @@
     </comp>
     <comp ref="D63">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -629,7 +621,7 @@
     </comp>
     <comp ref="SW63">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -637,7 +629,7 @@
     </comp>
     <comp ref="D62">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -645,7 +637,7 @@
     </comp>
     <comp ref="SW62">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -653,7 +645,7 @@
     </comp>
     <comp ref="D61">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -661,7 +653,7 @@
     </comp>
     <comp ref="SW61">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -669,7 +661,7 @@
     </comp>
     <comp ref="D60">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -677,7 +669,7 @@
     </comp>
     <comp ref="SW60">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -685,7 +677,7 @@
     </comp>
     <comp ref="D59">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -693,7 +685,7 @@
     </comp>
     <comp ref="SW59">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -701,7 +693,7 @@
     </comp>
     <comp ref="D58">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -709,7 +701,7 @@
     </comp>
     <comp ref="SW58">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -717,7 +709,7 @@
     </comp>
     <comp ref="D57">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -725,7 +717,7 @@
     </comp>
     <comp ref="SW57">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-2.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2.25U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -733,7 +725,7 @@
     </comp>
     <comp ref="D56">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -741,7 +733,7 @@
     </comp>
     <comp ref="SW56">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -749,7 +741,7 @@
     </comp>
     <comp ref="D55">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -757,7 +749,7 @@
     </comp>
     <comp ref="SW55">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-2.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2.25U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -765,7 +757,7 @@
     </comp>
     <comp ref="D54">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -773,7 +765,7 @@
     </comp>
     <comp ref="SW54">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -781,7 +773,7 @@
     </comp>
     <comp ref="D53">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -789,7 +781,7 @@
     </comp>
     <comp ref="SW53">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -797,7 +789,7 @@
     </comp>
     <comp ref="D52">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -805,7 +797,7 @@
     </comp>
     <comp ref="SW52">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -813,7 +805,7 @@
     </comp>
     <comp ref="D51">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -821,7 +813,7 @@
     </comp>
     <comp ref="SW51">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -829,7 +821,7 @@
     </comp>
     <comp ref="D50">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -837,7 +829,7 @@
     </comp>
     <comp ref="SW50">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -845,7 +837,7 @@
     </comp>
     <comp ref="D49">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -853,7 +845,7 @@
     </comp>
     <comp ref="SW49">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -861,7 +853,7 @@
     </comp>
     <comp ref="D48">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -869,7 +861,7 @@
     </comp>
     <comp ref="SW48">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -877,7 +869,7 @@
     </comp>
     <comp ref="D47">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -885,7 +877,7 @@
     </comp>
     <comp ref="SW47">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -893,7 +885,7 @@
     </comp>
     <comp ref="D46">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -901,7 +893,7 @@
     </comp>
     <comp ref="SW46">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -909,7 +901,7 @@
     </comp>
     <comp ref="D45">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -917,7 +909,7 @@
     </comp>
     <comp ref="SW45">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -925,7 +917,7 @@
     </comp>
     <comp ref="D44">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -933,7 +925,7 @@
     </comp>
     <comp ref="SW44">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -941,7 +933,7 @@
     </comp>
     <comp ref="D43">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -949,7 +941,7 @@
     </comp>
     <comp ref="SW43">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1.75U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.75U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -957,7 +949,7 @@
     </comp>
     <comp ref="D42">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -965,7 +957,7 @@
     </comp>
     <comp ref="SW42">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1.5U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.5U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -973,7 +965,7 @@
     </comp>
     <comp ref="D41">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -981,7 +973,7 @@
     </comp>
     <comp ref="SW41">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -989,7 +981,7 @@
     </comp>
     <comp ref="D40">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -997,7 +989,7 @@
     </comp>
     <comp ref="SW40">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1005,7 +997,7 @@
     </comp>
     <comp ref="D39">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1013,7 +1005,7 @@
     </comp>
     <comp ref="SW39">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1021,7 +1013,7 @@
     </comp>
     <comp ref="D38">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1029,7 +1021,7 @@
     </comp>
     <comp ref="SW38">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1037,7 +1029,7 @@
     </comp>
     <comp ref="D37">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1045,7 +1037,7 @@
     </comp>
     <comp ref="SW37">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1053,7 +1045,7 @@
     </comp>
     <comp ref="D36">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1061,7 +1053,7 @@
     </comp>
     <comp ref="SW36">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1069,7 +1061,7 @@
     </comp>
     <comp ref="D35">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1077,7 +1069,7 @@
     </comp>
     <comp ref="SW35">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1085,7 +1077,7 @@
     </comp>
     <comp ref="D34">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1093,7 +1085,7 @@
     </comp>
     <comp ref="SW34">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1101,7 +1093,7 @@
     </comp>
     <comp ref="D33">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1109,7 +1101,7 @@
     </comp>
     <comp ref="SW33">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1117,7 +1109,7 @@
     </comp>
     <comp ref="D32">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1125,7 +1117,7 @@
     </comp>
     <comp ref="SW32">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1133,7 +1125,7 @@
     </comp>
     <comp ref="D31">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1141,7 +1133,7 @@
     </comp>
     <comp ref="SW31">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1149,7 +1141,7 @@
     </comp>
     <comp ref="D30">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1157,7 +1149,7 @@
     </comp>
     <comp ref="SW30">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1165,7 +1157,7 @@
     </comp>
     <comp ref="D29">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1173,7 +1165,7 @@
     </comp>
     <comp ref="SW29">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1.5U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.5U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1181,7 +1173,7 @@
     </comp>
     <comp ref="D28">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1189,7 +1181,7 @@
     </comp>
     <comp ref="SW28">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-2U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1197,7 +1189,7 @@
     </comp>
     <comp ref="D27">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1205,7 +1197,7 @@
     </comp>
     <comp ref="SW27">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1213,7 +1205,7 @@
     </comp>
     <comp ref="D26">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1221,7 +1213,7 @@
     </comp>
     <comp ref="SW26">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1229,7 +1221,7 @@
     </comp>
     <comp ref="D25">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1237,7 +1229,7 @@
     </comp>
     <comp ref="SW25">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1245,7 +1237,7 @@
     </comp>
     <comp ref="D24">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1253,7 +1245,7 @@
     </comp>
     <comp ref="SW24">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1261,7 +1253,7 @@
     </comp>
     <comp ref="D23">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1269,7 +1261,7 @@
     </comp>
     <comp ref="SW23">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1277,7 +1269,7 @@
     </comp>
     <comp ref="D22">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1285,7 +1277,7 @@
     </comp>
     <comp ref="SW22">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1293,7 +1285,7 @@
     </comp>
     <comp ref="D21">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1301,7 +1293,7 @@
     </comp>
     <comp ref="SW21">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1309,7 +1301,7 @@
     </comp>
     <comp ref="D20">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1317,7 +1309,7 @@
     </comp>
     <comp ref="SW20">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1325,7 +1317,7 @@
     </comp>
     <comp ref="D19">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1333,7 +1325,7 @@
     </comp>
     <comp ref="SW19">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1341,7 +1333,7 @@
     </comp>
     <comp ref="D18">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1349,7 +1341,7 @@
     </comp>
     <comp ref="SW18">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1357,7 +1349,7 @@
     </comp>
     <comp ref="D17">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1365,7 +1357,7 @@
     </comp>
     <comp ref="SW17">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1373,7 +1365,7 @@
     </comp>
     <comp ref="D16">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1381,7 +1373,7 @@
     </comp>
     <comp ref="SW16">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1389,7 +1381,7 @@
     </comp>
     <comp ref="D15">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1397,7 +1389,7 @@
     </comp>
     <comp ref="SW15">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1405,7 +1397,7 @@
     </comp>
     <comp ref="D14">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1413,7 +1405,7 @@
     </comp>
     <comp ref="D13">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1421,7 +1413,7 @@
     </comp>
     <comp ref="SW14">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1429,71 +1421,39 @@
     </comp>
     <comp ref="D12">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
       <tstamp>60AB99A9</tstamp>
     </comp>
-    <comp ref="SW13">
-      <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
-      <tstamp>60AB99A2</tstamp>
-    </comp>
     <comp ref="D11">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
       <tstamp>60AB9998</tstamp>
     </comp>
-    <comp ref="SW12">
-      <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
-      <tstamp>60AB9991</tstamp>
-    </comp>
     <comp ref="D10">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
       <tstamp>60AB9986</tstamp>
     </comp>
-    <comp ref="SW11">
-      <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
-      <tstamp>60AB997F</tstamp>
-    </comp>
     <comp ref="D9">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
       <tstamp>60AB9974</tstamp>
     </comp>
-    <comp ref="SW10">
-      <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
-      <tstamp>60AB996D</tstamp>
-    </comp>
     <comp ref="D8">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1501,7 +1461,7 @@
     </comp>
     <comp ref="SW9">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1509,7 +1469,7 @@
     </comp>
     <comp ref="D7">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1517,7 +1477,7 @@
     </comp>
     <comp ref="SW8">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1525,7 +1485,7 @@
     </comp>
     <comp ref="D6">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1533,7 +1493,7 @@
     </comp>
     <comp ref="SW7">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1541,7 +1501,7 @@
     </comp>
     <comp ref="D5">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1549,7 +1509,7 @@
     </comp>
     <comp ref="SW6">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1557,7 +1517,7 @@
     </comp>
     <comp ref="D4">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1565,7 +1525,7 @@
     </comp>
     <comp ref="SW5">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1573,7 +1533,7 @@
     </comp>
     <comp ref="D3">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1581,7 +1541,7 @@
     </comp>
     <comp ref="SW4">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1589,7 +1549,7 @@
     </comp>
     <comp ref="D2">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1597,7 +1557,7 @@
     </comp>
     <comp ref="SW3">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1605,7 +1565,7 @@
     </comp>
     <comp ref="D1">
       <value>D_Small</value>
-      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1613,7 +1573,7 @@
     </comp>
     <comp ref="SW2">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1621,7 +1581,7 @@
     </comp>
     <comp ref="SW74">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MX-6.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-6.25U-Hotswap-ReversedStabilizers</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
@@ -1634,6 +1594,38 @@
       <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
       <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
       <tstamp>606B630C</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
+      <tstamp>60AB996D</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
+      <tstamp>60AB997F</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
+      <tstamp>60AB9991</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>MX_Only:MXOnly-1U-Hotswap</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Matrix/" tstamps="/605ED2B4/"/>
+      <tstamp>60AB99A2</tstamp>
     </comp>
     <comp ref="D81">
       <value>LED_Small</value>
@@ -2648,1047 +2640,1047 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
     </library>
     <library logical="Type-C">
-      <uri>C:\Users\dakot\Documents\Github\pcb-design\version1/Type-C.pretty/Type-C.lib</uri>
+      <uri>C:\Users\dakot\Documents\Github\pcb-design/Type-C.pretty/Type-C.lib</uri>
     </library>
     <library logical="random-keyboard-parts">
-      <uri>C:\Users\dakot\Documents\Github\pcb-design\version1/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
+      <uri>C:\Users\dakot\Documents\Github\pcb-design/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(C14-Pad1)">
-      <node ref="U1" pin="7"/>
-      <node ref="C14" pin="1"/>
-    </net>
-    <net code="2" name="+5V">
-      <node ref="F1" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C10" pin="1"/>
+    <net code="1" name="+5V">
+      <node ref="C9" pin="1"/>
       <node ref="U1" pin="21"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="52"/>
       <node ref="U1" pin="3"/>
       <node ref="U1" pin="8"/>
       <node ref="U1" pin="64"/>
-      <node ref="U1" pin="52"/>
-      <node ref="J1" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C9" pin="1"/>
     </net>
-    <net code="3" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
+    <net code="2" name="Net-(C14-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="C14" pin="1"/>
     </net>
-    <net code="4" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
+    <net code="3" name="GND">
+      <node ref="J1" pin="6"/>
+      <node ref="U3" pin="1"/>
+      <node ref="USB1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="USB1" pin="12"/>
+      <node ref="USB1" pin="13"/>
+      <node ref="U2" pin="44"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U2" pin="43"/>
+      <node ref="U1" pin="63"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="53"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="49"/>
+      <node ref="U2" pin="48"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="RE1" pin="C"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U2" pin="34"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U2" pin="12"/>
     </net>
-    <net code="5" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
+    <net code="4" name="Net-(U1-Pad62)">
+      <node ref="U1" pin="62"/>
     </net>
-    <net code="6" name="Net-(U1-Pad44)">
-      <node ref="U1" pin="44"/>
-    </net>
-    <net code="7" name="Net-(U1-Pad45)">
-      <node ref="U1" pin="45"/>
-    </net>
-    <net code="8" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1"/>
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="9" name="Net-(J1-Pad4)">
-      <node ref="U1" pin="12"/>
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="10" name="Net-(J1-Pad3)">
+    <net code="5" name="Net-(J1-Pad3)">
       <node ref="U1" pin="11"/>
       <node ref="J1" pin="3"/>
     </net>
-    <net code="11" name="GND">
-      <node ref="USB1" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="U2" pin="34"/>
-      <node ref="U2" pin="43"/>
-      <node ref="U2" pin="44"/>
-      <node ref="U1" pin="22"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="USB1" pin="12"/>
-      <node ref="C7" pin="2"/>
-      <node ref="USB1" pin="13"/>
-      <node ref="R10" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="J1" pin="6"/>
-      <node ref="U3" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="63"/>
-      <node ref="J2" pin="4"/>
-      <node ref="U1" pin="53"/>
-      <node ref="U2" pin="48"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="C10" pin="2"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="U2" pin="12"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U2" pin="49"/>
-      <node ref="C14" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="RE1" pin="C"/>
+    <net code="6" name="RESET">
+      <node ref="J1" pin="5"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="12" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
+    <net code="7" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
     </net>
-    <net code="13" name="A1">
+    <net code="8" name="Net-(J1-Pad4)">
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="12" name="A1">
       <node ref="RE1" pin="A"/>
       <node ref="U1" pin="16"/>
     </net>
-    <net code="14" name="B1">
+    <net code="13" name="B1">
       <node ref="RE1" pin="B"/>
       <node ref="U1" pin="17"/>
     </net>
-    <net code="15" name="Net-(U1-Pad18)">
+    <net code="14" name="Net-(U1-Pad18)">
       <node ref="U1" pin="18"/>
     </net>
-    <net code="16" name="Net-(U1-Pad19)">
+    <net code="15" name="Net-(U1-Pad19)">
       <node ref="U1" pin="19"/>
     </net>
-    <net code="17" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
+    <net code="16" name="SCL">
+      <node ref="J2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U2" pin="42"/>
     </net>
-    <net code="18" name="Net-(U1-Pad62)">
-      <node ref="U1" pin="62"/>
+    <net code="17" name="SDA">
+      <node ref="U2" pin="41"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="26"/>
     </net>
-    <net code="19" name="RESET">
-      <node ref="J1" pin="5"/>
-      <node ref="U1" pin="20"/>
-      <node ref="R1" pin="2"/>
-      <node ref="SW1" pin="2"/>
+    <net code="18" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
     </net>
-    <net code="20" name="Net-(U1-Pad33)">
-      <node ref="U1" pin="33"/>
+    <net code="19" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="21" name="Net-(U2-Pad14)">
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="22" name="Net-(U2-Pad15)">
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="23" name="Net-(U2-Pad45)">
-      <node ref="U2" pin="45"/>
-    </net>
-    <net code="24" name="Net-(U2-Pad40)">
-      <node ref="U2" pin="40"/>
-    </net>
-    <net code="25" name="Net-(U2-Pad13)">
-      <node ref="U2" pin="13"/>
-    </net>
-    <net code="26" name="Net-(C11-Pad1)">
+    <net code="20" name="Net-(C11-Pad1)">
       <node ref="Y1" pin="1"/>
       <node ref="U1" pin="24"/>
       <node ref="C11" pin="1"/>
     </net>
-    <net code="27" name="Net-(U2-Pad32)">
+    <net code="21" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad32)">
       <node ref="U2" pin="32"/>
     </net>
-    <net code="28" name="Net-(U2-Pad33)">
+    <net code="23" name="Net-(U2-Pad33)">
       <node ref="U2" pin="33"/>
     </net>
-    <net code="29" name="Net-(U2-Pad9)">
+    <net code="24" name="Net-(U2-Pad9)">
       <node ref="U2" pin="9"/>
     </net>
-    <net code="30" name="Net-(U2-Pad10)">
+    <net code="25" name="Net-(U2-Pad10)">
       <node ref="U2" pin="10"/>
     </net>
-    <net code="31" name="Net-(U2-Pad11)">
-      <node ref="U2" pin="11"/>
+    <net code="26" name="Net-(U2-Pad45)">
+      <node ref="U2" pin="45"/>
     </net>
-    <net code="32" name="Net-(U1-Pad36)">
-      <node ref="U1" pin="36"/>
+    <net code="27" name="Net-(U2-Pad40)">
+      <node ref="U2" pin="40"/>
     </net>
-    <net code="33" name="Net-(U1-Pad32)">
-      <node ref="U1" pin="32"/>
-    </net>
-    <net code="34" name="Net-(U1-Pad31)">
-      <node ref="U1" pin="31"/>
-    </net>
-    <net code="35" name="Net-(U1-Pad30)">
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="36" name="Net-(U1-Pad29)">
+    <net code="28" name="Net-(U1-Pad29)">
       <node ref="U1" pin="29"/>
     </net>
-    <net code="37" name="Net-(U1-Pad28)">
+    <net code="29" name="Net-(U1-Pad28)">
       <node ref="U1" pin="28"/>
     </net>
-    <net code="38" name="Net-(U1-Pad27)">
+    <net code="30" name="Net-(U1-Pad27)">
       <node ref="U1" pin="27"/>
     </net>
-    <net code="39" name="Net-(U1-Pad35)">
+    <net code="31" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad35)">
       <node ref="U1" pin="35"/>
     </net>
-    <net code="40" name="Net-(U1-Pad9)">
+    <net code="33" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad9)">
       <node ref="U1" pin="9"/>
     </net>
-    <net code="41" name="Net-(U1-Pad34)">
+    <net code="35" name="Net-(U1-Pad34)">
       <node ref="U1" pin="34"/>
     </net>
-    <net code="42" name="Net-(C13-Pad1)">
-      <node ref="U1" pin="23"/>
-      <node ref="Y1" pin="3"/>
-      <node ref="C13" pin="1"/>
+    <net code="36" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
     </net>
-    <net code="43" name="CS6">
-      <node ref="D99" pin="2"/>
-      <node ref="D153" pin="2"/>
-      <node ref="D127" pin="2"/>
-      <node ref="D141" pin="2"/>
-      <node ref="D86" pin="2"/>
-      <node ref="D113" pin="2"/>
-      <node ref="U2" pin="22"/>
+    <net code="37" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
     </net>
-    <net code="44" name="CS1">
-      <node ref="D108" pin="2"/>
-      <node ref="D122" pin="2"/>
-      <node ref="D81" pin="2"/>
-      <node ref="D94" pin="2"/>
-      <node ref="D150" pin="2"/>
-      <node ref="D136" pin="2"/>
-      <node ref="U2" pin="16"/>
+    <net code="38" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
     </net>
-    <net code="45" name="CS2">
-      <node ref="D151" pin="2"/>
-      <node ref="D95" pin="2"/>
-      <node ref="D109" pin="2"/>
-      <node ref="D82" pin="2"/>
-      <node ref="D123" pin="2"/>
-      <node ref="U2" pin="17"/>
-      <node ref="D137" pin="2"/>
-    </net>
-    <net code="46" name="CS3">
-      <node ref="D96" pin="2"/>
-      <node ref="D138" pin="2"/>
-      <node ref="D124" pin="2"/>
-      <node ref="D110" pin="2"/>
-      <node ref="D83" pin="2"/>
-      <node ref="D152" pin="2"/>
-      <node ref="U2" pin="18"/>
-    </net>
-    <net code="47" name="CS4">
-      <node ref="D139" pin="2"/>
-      <node ref="D111" pin="2"/>
-      <node ref="D97" pin="2"/>
-      <node ref="D84" pin="2"/>
-      <node ref="D125" pin="2"/>
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="48" name="SW1">
-      <node ref="D157" pin="1"/>
-      <node ref="D156" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="D150" pin="1"/>
-      <node ref="D151" pin="1"/>
-      <node ref="D153" pin="1"/>
-      <node ref="D152" pin="1"/>
-      <node ref="D159" pin="1"/>
-      <node ref="D154" pin="1"/>
-      <node ref="D155" pin="1"/>
-      <node ref="D158" pin="1"/>
-    </net>
-    <net code="49" name="CS5">
-      <node ref="D112" pin="2"/>
+    <net code="39" name="CS5">
       <node ref="D126" pin="2"/>
-      <node ref="U2" pin="21"/>
-      <node ref="D140" pin="2"/>
+      <node ref="D112" pin="2"/>
       <node ref="D98" pin="2"/>
       <node ref="D85" pin="2"/>
+      <node ref="D140" pin="2"/>
+      <node ref="U2" pin="21"/>
     </net>
-    <net code="50" name="CS7">
-      <node ref="D128" pin="2"/>
-      <node ref="D87" pin="2"/>
-      <node ref="D114" pin="2"/>
-      <node ref="D100" pin="2"/>
+    <net code="40" name="CS6">
+      <node ref="D153" pin="2"/>
+      <node ref="D141" pin="2"/>
+      <node ref="D99" pin="2"/>
+      <node ref="D127" pin="2"/>
+      <node ref="U2" pin="22"/>
+      <node ref="D86" pin="2"/>
+      <node ref="D113" pin="2"/>
+    </net>
+    <net code="41" name="CS7">
       <node ref="D142" pin="2"/>
       <node ref="U2" pin="23"/>
+      <node ref="D114" pin="2"/>
+      <node ref="D128" pin="2"/>
+      <node ref="D87" pin="2"/>
+      <node ref="D100" pin="2"/>
     </net>
-    <net code="51" name="CS8">
+    <net code="42" name="CS8">
+      <node ref="D129" pin="2"/>
+      <node ref="D115" pin="2"/>
       <node ref="D143" pin="2"/>
       <node ref="D88" pin="2"/>
-      <node ref="D129" pin="2"/>
       <node ref="D101" pin="2"/>
-      <node ref="D115" pin="2"/>
       <node ref="U2" pin="24"/>
     </net>
-    <net code="52" name="CS9">
+    <net code="43" name="CS9">
       <node ref="D89" pin="2"/>
-      <node ref="D130" pin="2"/>
-      <node ref="D154" pin="2"/>
+      <node ref="D102" pin="2"/>
       <node ref="U2" pin="25"/>
       <node ref="D116" pin="2"/>
+      <node ref="D130" pin="2"/>
       <node ref="D144" pin="2"/>
-      <node ref="D102" pin="2"/>
+      <node ref="D154" pin="2"/>
     </net>
-    <net code="53" name="CS10">
-      <node ref="D103" pin="2"/>
-      <node ref="D90" pin="2"/>
-      <node ref="D155" pin="2"/>
+    <net code="44" name="CS10">
       <node ref="D117" pin="2"/>
-      <node ref="D145" pin="2"/>
       <node ref="D131" pin="2"/>
+      <node ref="D90" pin="2"/>
+      <node ref="D103" pin="2"/>
+      <node ref="D155" pin="2"/>
       <node ref="U2" pin="26"/>
+      <node ref="D145" pin="2"/>
     </net>
-    <net code="54" name="CS11">
-      <node ref="D104" pin="2"/>
+    <net code="45" name="CS11">
+      <node ref="D132" pin="2"/>
       <node ref="D156" pin="2"/>
       <node ref="D91" pin="2"/>
-      <node ref="D146" pin="2"/>
-      <node ref="D132" pin="2"/>
       <node ref="U2" pin="27"/>
       <node ref="D118" pin="2"/>
+      <node ref="D146" pin="2"/>
+      <node ref="D104" pin="2"/>
     </net>
-    <net code="55" name="CS12">
-      <node ref="D105" pin="2"/>
-      <node ref="D147" pin="2"/>
+    <net code="46" name="CS12">
+      <node ref="D133" pin="2"/>
       <node ref="D157" pin="2"/>
       <node ref="D92" pin="2"/>
-      <node ref="D119" pin="2"/>
       <node ref="U2" pin="28"/>
-      <node ref="D133" pin="2"/>
+      <node ref="D147" pin="2"/>
+      <node ref="D119" pin="2"/>
+      <node ref="D105" pin="2"/>
     </net>
-    <net code="56" name="SW2">
+    <net code="47" name="SW2">
       <node ref="D136" pin="1"/>
       <node ref="D137" pin="1"/>
       <node ref="D138" pin="1"/>
       <node ref="D141" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="D144" pin="1"/>
-      <node ref="D143" pin="1"/>
       <node ref="D142" pin="1"/>
-      <node ref="D148" pin="1"/>
-      <node ref="D147" pin="1"/>
-      <node ref="D146" pin="1"/>
+      <node ref="D143" pin="1"/>
+      <node ref="D144" pin="1"/>
       <node ref="D145" pin="1"/>
-      <node ref="D140" pin="1"/>
       <node ref="D139" pin="1"/>
       <node ref="D149" pin="1"/>
+      <node ref="D148" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D140" pin="1"/>
+      <node ref="D146" pin="1"/>
+      <node ref="D147" pin="1"/>
     </net>
-    <net code="57" name="Net-(U2-Pad1)">
+    <net code="48" name="CS13">
+      <node ref="D93" pin="2"/>
+      <node ref="D148" pin="2"/>
+      <node ref="D134" pin="2"/>
+      <node ref="U2" pin="30"/>
+      <node ref="D106" pin="2"/>
+      <node ref="D120" pin="2"/>
+      <node ref="D158" pin="2"/>
+    </net>
+    <net code="49" name="CS14">
+      <node ref="D107" pin="2"/>
+      <node ref="D135" pin="2"/>
+      <node ref="D121" pin="2"/>
+      <node ref="U2" pin="31"/>
+      <node ref="D149" pin="2"/>
+      <node ref="D159" pin="2"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad1)">
       <node ref="U2" pin="1"/>
     </net>
-    <net code="58" name="Net-(R4-Pad1)">
-      <node ref="U2" pin="47"/>
-      <node ref="R4" pin="1"/>
+    <net code="52" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
     </net>
-    <net code="59" name="SW4">
-      <node ref="U2" pin="6"/>
-      <node ref="D108" pin="1"/>
-      <node ref="D112" pin="1"/>
-      <node ref="D117" pin="1"/>
-      <node ref="D109" pin="1"/>
-      <node ref="D116" pin="1"/>
-      <node ref="D114" pin="1"/>
-      <node ref="D115" pin="1"/>
-      <node ref="D110" pin="1"/>
-      <node ref="D113" pin="1"/>
-      <node ref="D119" pin="1"/>
-      <node ref="D118" pin="1"/>
-      <node ref="D111" pin="1"/>
-      <node ref="D121" pin="1"/>
-      <node ref="D120" pin="1"/>
+    <net code="53" name="Net-(U2-Pad36)">
+      <node ref="U2" pin="36"/>
     </net>
-    <net code="60" name="SW5">
-      <node ref="D94" pin="1"/>
-      <node ref="D104" pin="1"/>
-      <node ref="D106" pin="1"/>
-      <node ref="D105" pin="1"/>
-      <node ref="D103" pin="1"/>
-      <node ref="D107" pin="1"/>
-      <node ref="U2" pin="7"/>
-      <node ref="D102" pin="1"/>
-      <node ref="D95" pin="1"/>
-      <node ref="D99" pin="1"/>
-      <node ref="D100" pin="1"/>
-      <node ref="D101" pin="1"/>
-      <node ref="D97" pin="1"/>
-      <node ref="D96" pin="1"/>
-      <node ref="D98" pin="1"/>
+    <net code="54" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="56" name="CS1">
+      <node ref="D108" pin="2"/>
+      <node ref="D136" pin="2"/>
+      <node ref="D81" pin="2"/>
+      <node ref="D94" pin="2"/>
+      <node ref="D150" pin="2"/>
+      <node ref="D122" pin="2"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="57" name="CS2">
+      <node ref="U2" pin="17"/>
+      <node ref="D109" pin="2"/>
+      <node ref="D151" pin="2"/>
+      <node ref="D95" pin="2"/>
+      <node ref="D82" pin="2"/>
+      <node ref="D137" pin="2"/>
+      <node ref="D123" pin="2"/>
+    </net>
+    <net code="58" name="CS3">
+      <node ref="D124" pin="2"/>
+      <node ref="D152" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="D96" pin="2"/>
+      <node ref="D138" pin="2"/>
+      <node ref="D110" pin="2"/>
+      <node ref="D83" pin="2"/>
+    </net>
+    <net code="59" name="CS4">
+      <node ref="D111" pin="2"/>
+      <node ref="D84" pin="2"/>
+      <node ref="D97" pin="2"/>
+      <node ref="U2" pin="19"/>
+      <node ref="D125" pin="2"/>
+      <node ref="D139" pin="2"/>
+    </net>
+    <net code="60" name="SW1">
+      <node ref="D159" pin="1"/>
+      <node ref="D156" pin="1"/>
+      <node ref="D157" pin="1"/>
+      <node ref="D158" pin="1"/>
+      <node ref="D152" pin="1"/>
+      <node ref="D150" pin="1"/>
+      <node ref="D151" pin="1"/>
+      <node ref="D153" pin="1"/>
+      <node ref="D154" pin="1"/>
+      <node ref="D155" pin="1"/>
+      <node ref="U2" pin="2"/>
     </net>
     <net code="61" name="SW6">
       <node ref="D86" pin="1"/>
       <node ref="D87" pin="1"/>
+      <node ref="D82" pin="1"/>
+      <node ref="D89" pin="1"/>
       <node ref="D81" pin="1"/>
       <node ref="D85" pin="1"/>
-      <node ref="D83" pin="1"/>
-      <node ref="D84" pin="1"/>
-      <node ref="D90" pin="1"/>
-      <node ref="D92" pin="1"/>
-      <node ref="D82" pin="1"/>
       <node ref="D88" pin="1"/>
-      <node ref="D91" pin="1"/>
-      <node ref="D89" pin="1"/>
-      <node ref="D93" pin="1"/>
+      <node ref="D83" pin="1"/>
+      <node ref="D90" pin="1"/>
+      <node ref="D84" pin="1"/>
       <node ref="U2" pin="8"/>
+      <node ref="D93" pin="1"/>
+      <node ref="D91" pin="1"/>
+      <node ref="D92" pin="1"/>
     </net>
     <net code="62" name="Net-(R6-Pad1)">
       <node ref="U1" pin="43"/>
       <node ref="R6" pin="1"/>
     </net>
-    <net code="63" name="CS13">
-      <node ref="D120" pin="2"/>
-      <node ref="D106" pin="2"/>
-      <node ref="D158" pin="2"/>
-      <node ref="D93" pin="2"/>
-      <node ref="D134" pin="2"/>
-      <node ref="U2" pin="30"/>
-      <node ref="D148" pin="2"/>
+    <net code="63" name="SW5">
+      <node ref="D103" pin="1"/>
+      <node ref="D106" pin="1"/>
+      <node ref="D97" pin="1"/>
+      <node ref="D105" pin="1"/>
+      <node ref="D98" pin="1"/>
+      <node ref="D107" pin="1"/>
+      <node ref="D96" pin="1"/>
+      <node ref="D102" pin="1"/>
+      <node ref="D104" pin="1"/>
+      <node ref="D100" pin="1"/>
+      <node ref="D99" pin="1"/>
+      <node ref="D101" pin="1"/>
+      <node ref="D95" pin="1"/>
+      <node ref="D94" pin="1"/>
+      <node ref="U2" pin="7"/>
     </net>
-    <net code="64" name="CS14">
-      <node ref="U2" pin="31"/>
-      <node ref="D135" pin="2"/>
-      <node ref="D107" pin="2"/>
-      <node ref="D149" pin="2"/>
-      <node ref="D121" pin="2"/>
-      <node ref="D159" pin="2"/>
+    <net code="64" name="Net-(C12-Pad2)">
+      <node ref="U2" pin="39"/>
+      <node ref="C12" pin="2"/>
     </net>
-    <net code="65" name="Net-(U2-Pad36)">
-      <node ref="U2" pin="36"/>
-    </net>
-    <net code="66" name="SW3">
-      <node ref="D130" pin="1"/>
-      <node ref="D123" pin="1"/>
-      <node ref="D122" pin="1"/>
-      <node ref="D126" pin="1"/>
+    <net code="65" name="SW3">
+      <node ref="D131" pin="1"/>
+      <node ref="D132" pin="1"/>
+      <node ref="D127" pin="1"/>
+      <node ref="D128" pin="1"/>
+      <node ref="D129" pin="1"/>
+      <node ref="D133" pin="1"/>
       <node ref="D125" pin="1"/>
       <node ref="D124" pin="1"/>
-      <node ref="D131" pin="1"/>
-      <node ref="D129" pin="1"/>
-      <node ref="D128" pin="1"/>
-      <node ref="D127" pin="1"/>
-      <node ref="U2" pin="4"/>
-      <node ref="D132" pin="1"/>
-      <node ref="D133" pin="1"/>
       <node ref="D135" pin="1"/>
       <node ref="D134" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="D123" pin="1"/>
+      <node ref="D130" pin="1"/>
+      <node ref="D126" pin="1"/>
+      <node ref="D122" pin="1"/>
     </net>
-    <net code="67" name="row0">
-      <node ref="D1" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="D14" pin="1"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="U1" pin="37"/>
-      <node ref="D11" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D12" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D8" pin="1"/>
+    <net code="66" name="Net-(R4-Pad1)">
+      <node ref="U2" pin="47"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="68" name="row1">
-      <node ref="D15" pin="1"/>
-      <node ref="D17" pin="1"/>
-      <node ref="D22" pin="1"/>
-      <node ref="D20" pin="1"/>
-      <node ref="D16" pin="1"/>
-      <node ref="U1" pin="38"/>
-      <node ref="D28" pin="1"/>
+    <net code="67" name="SW4">
+      <node ref="D119" pin="1"/>
+      <node ref="D121" pin="1"/>
+      <node ref="D118" pin="1"/>
+      <node ref="D120" pin="1"/>
+      <node ref="D110" pin="1"/>
+      <node ref="D111" pin="1"/>
+      <node ref="D113" pin="1"/>
+      <node ref="D109" pin="1"/>
+      <node ref="D108" pin="1"/>
+      <node ref="D115" pin="1"/>
+      <node ref="D114" pin="1"/>
+      <node ref="D116" pin="1"/>
+      <node ref="D117" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="D112" pin="1"/>
+    </net>
+    <net code="68" name="col9">
+      <node ref="SW11" pin="1"/>
+      <node ref="SW52" pin="1"/>
+      <node ref="SW76" pin="1"/>
+      <node ref="SW66" pin="1"/>
+      <node ref="SW24" pin="1"/>
+      <node ref="U1" pin="50"/>
+      <node ref="SW38" pin="1"/>
+    </net>
+    <net code="69" name="row1">
       <node ref="D27" pin="1"/>
-      <node ref="D26" pin="1"/>
-      <node ref="D25" pin="1"/>
-      <node ref="D24" pin="1"/>
-      <node ref="D21" pin="1"/>
-      <node ref="D18" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
       <node ref="D19" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D24" pin="1"/>
       <node ref="D23" pin="1"/>
     </net>
-    <net code="69" name="row2">
-      <node ref="D38" pin="1"/>
-      <node ref="D33" pin="1"/>
-      <node ref="D37" pin="1"/>
-      <node ref="D42" pin="1"/>
-      <node ref="D32" pin="1"/>
-      <node ref="D31" pin="1"/>
-      <node ref="D34" pin="1"/>
-      <node ref="D35" pin="1"/>
-      <node ref="D30" pin="1"/>
-      <node ref="D29" pin="1"/>
-      <node ref="U1" pin="39"/>
-      <node ref="D39" pin="1"/>
-      <node ref="D41" pin="1"/>
-      <node ref="D40" pin="1"/>
-      <node ref="D36" pin="1"/>
+    <net code="70" name="row0">
+      <node ref="D1" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="U1" pin="45"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D13" pin="1"/>
     </net>
-    <net code="70" name="D-">
-      <node ref="R8" pin="1"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="71" name="row3">
-      <node ref="D47" pin="1"/>
-      <node ref="D48" pin="1"/>
-      <node ref="D45" pin="1"/>
-      <node ref="D49" pin="1"/>
-      <node ref="D50" pin="1"/>
-      <node ref="D51" pin="1"/>
-      <node ref="D46" pin="1"/>
-      <node ref="D54" pin="1"/>
-      <node ref="D55" pin="1"/>
-      <node ref="D56" pin="1"/>
-      <node ref="D53" pin="1"/>
-      <node ref="U1" pin="40"/>
-      <node ref="D44" pin="1"/>
-      <node ref="D43" pin="1"/>
-      <node ref="D52" pin="1"/>
-    </net>
-    <net code="72" name="row4">
-      <node ref="D63" pin="1"/>
-      <node ref="D59" pin="1"/>
-      <node ref="D68" pin="1"/>
-      <node ref="D69" pin="1"/>
-      <node ref="D58" pin="1"/>
-      <node ref="D57" pin="1"/>
-      <node ref="D70" pin="1"/>
-      <node ref="U1" pin="41"/>
-      <node ref="D61" pin="1"/>
-      <node ref="D65" pin="1"/>
-      <node ref="D64" pin="1"/>
-      <node ref="D60" pin="1"/>
-      <node ref="D62" pin="1"/>
-      <node ref="D66" pin="1"/>
-      <node ref="D67" pin="1"/>
-    </net>
-    <net code="73" name="row5">
-      <node ref="U1" pin="42"/>
-      <node ref="D77" pin="1"/>
-      <node ref="D73" pin="1"/>
-      <node ref="D72" pin="1"/>
-      <node ref="D74" pin="1"/>
-      <node ref="D78" pin="1"/>
-      <node ref="D75" pin="1"/>
-      <node ref="D79" pin="1"/>
-      <node ref="D71" pin="1"/>
-      <node ref="D80" pin="1"/>
-      <node ref="D76" pin="1"/>
-    </net>
-    <net code="74" name="col13">
-      <node ref="SW80" pin="2"/>
-      <node ref="RE1" pin="S1"/>
-      <node ref="SW28" pin="2"/>
+    <net code="71" name="col13">
+      <node ref="SW28" pin="1"/>
+      <node ref="SW70" pin="1"/>
       <node ref="U1" pin="46"/>
-      <node ref="SW56" pin="2"/>
-      <node ref="SW70" pin="2"/>
-      <node ref="SW42" pin="2"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW80" pin="1"/>
+      <node ref="SW56" pin="1"/>
+      <node ref="RE1" pin="S1"/>
     </net>
-    <net code="75" name="col12">
-      <node ref="SW69" pin="2"/>
+    <net code="72" name="col12">
+      <node ref="SW41" pin="1"/>
+      <node ref="SW69" pin="1"/>
+      <node ref="SW27" pin="1"/>
       <node ref="U1" pin="47"/>
-      <node ref="SW41" pin="2"/>
-      <node ref="SW14" pin="2"/>
-      <node ref="SW55" pin="2"/>
-      <node ref="SW79" pin="2"/>
-      <node ref="SW27" pin="2"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW79" pin="1"/>
+      <node ref="SW55" pin="1"/>
     </net>
-    <net code="76" name="col11">
-      <node ref="SW68" pin="2"/>
-      <node ref="SW54" pin="2"/>
-      <node ref="SW13" pin="2"/>
-      <node ref="SW26" pin="2"/>
-      <node ref="SW78" pin="2"/>
+    <net code="73" name="col11">
+      <node ref="SW26" pin="1"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW13" pin="1"/>
       <node ref="U1" pin="48"/>
-      <node ref="SW40" pin="2"/>
+      <node ref="SW78" pin="1"/>
+      <node ref="SW68" pin="1"/>
+      <node ref="SW40" pin="1"/>
     </net>
-    <net code="77" name="col10">
-      <node ref="SW25" pin="2"/>
-      <node ref="SW53" pin="2"/>
-      <node ref="SW67" pin="2"/>
-      <node ref="SW77" pin="2"/>
-      <node ref="SW39" pin="2"/>
+    <net code="74" name="col10">
+      <node ref="SW53" pin="1"/>
+      <node ref="SW67" pin="1"/>
+      <node ref="SW12" pin="1"/>
       <node ref="U1" pin="49"/>
-      <node ref="SW12" pin="2"/>
+      <node ref="SW25" pin="1"/>
+      <node ref="SW77" pin="1"/>
+      <node ref="SW39" pin="1"/>
     </net>
-    <net code="78" name="D+">
+    <net code="75" name="D+">
       <node ref="R9" pin="1"/>
       <node ref="U1" pin="5"/>
     </net>
-    <net code="79" name="col9">
-      <node ref="SW66" pin="2"/>
-      <node ref="SW38" pin="2"/>
-      <node ref="SW52" pin="2"/>
-      <node ref="SW24" pin="2"/>
-      <node ref="U1" pin="50"/>
-      <node ref="SW11" pin="2"/>
-      <node ref="SW76" pin="2"/>
+    <net code="76" name="row2">
+      <node ref="D31" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="U1" pin="42"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D40" pin="1"/>
     </net>
-    <net code="80" name="SCL">
-      <node ref="U1" pin="25"/>
-      <node ref="J2" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="U2" pin="42"/>
-    </net>
-    <net code="81" name="SDA">
-      <node ref="U2" pin="41"/>
-      <node ref="U1" pin="26"/>
-      <node ref="J2" pin="1"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="82" name="col8">
+    <net code="77" name="col8">
+      <node ref="SW65" pin="1"/>
+      <node ref="SW75" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW37" pin="1"/>
+      <node ref="SW23" pin="1"/>
       <node ref="U1" pin="51"/>
-      <node ref="SW51" pin="2"/>
-      <node ref="SW65" pin="2"/>
-      <node ref="SW75" pin="2"/>
-      <node ref="SW37" pin="2"/>
-      <node ref="SW23" pin="2"/>
-      <node ref="SW10" pin="2"/>
     </net>
-    <net code="83" name="col7">
-      <node ref="SW36" pin="2"/>
-      <node ref="SW50" pin="2"/>
+    <net code="78" name="col7">
       <node ref="U1" pin="54"/>
-      <node ref="SW9" pin="2"/>
-      <node ref="SW64" pin="2"/>
-      <node ref="SW22" pin="2"/>
+      <node ref="SW50" pin="1"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="SW36" pin="1"/>
+      <node ref="SW64" pin="1"/>
+      <node ref="SW9" pin="1"/>
     </net>
-    <net code="84" name="col6">
-      <node ref="SW35" pin="2"/>
-      <node ref="SW49" pin="2"/>
-      <node ref="SW8" pin="2"/>
-      <node ref="SW63" pin="2"/>
+    <net code="79" name="col6">
+      <node ref="SW8" pin="1"/>
       <node ref="U1" pin="55"/>
-      <node ref="SW21" pin="2"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW49" pin="1"/>
+      <node ref="SW35" pin="1"/>
+      <node ref="SW63" pin="1"/>
     </net>
-    <net code="85" name="col5">
-      <node ref="SW74" pin="2"/>
-      <node ref="SW7" pin="2"/>
-      <node ref="SW34" pin="2"/>
-      <node ref="SW62" pin="2"/>
-      <node ref="SW20" pin="2"/>
+    <net code="80" name="col5">
+      <node ref="SW48" pin="1"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW7" pin="1"/>
       <node ref="U1" pin="56"/>
-      <node ref="SW48" pin="2"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="SW62" pin="1"/>
+      <node ref="SW74" pin="1"/>
     </net>
-    <net code="86" name="col4">
-      <node ref="SW19" pin="2"/>
-      <node ref="SW33" pin="2"/>
-      <node ref="SW47" pin="2"/>
+    <net code="81" name="col4">
       <node ref="U1" pin="57"/>
-      <node ref="SW61" pin="2"/>
-      <node ref="SW6" pin="2"/>
+      <node ref="SW47" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="SW33" pin="1"/>
+      <node ref="SW61" pin="1"/>
     </net>
-    <net code="87" name="col3">
-      <node ref="SW46" pin="2"/>
-      <node ref="SW60" pin="2"/>
-      <node ref="SW32" pin="2"/>
-      <node ref="SW5" pin="2"/>
+    <net code="82" name="col3">
+      <node ref="SW46" pin="1"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="SW32" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW60" pin="1"/>
       <node ref="U1" pin="58"/>
-      <node ref="SW18" pin="2"/>
     </net>
-    <net code="88" name="col2">
-      <node ref="SW59" pin="2"/>
-      <node ref="SW17" pin="2"/>
-      <node ref="SW45" pin="2"/>
+    <net code="83" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="84" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="85" name="row5">
+      <node ref="D74" pin="1"/>
+      <node ref="D78" pin="1"/>
+      <node ref="U1" pin="39"/>
+      <node ref="D80" pin="1"/>
+      <node ref="D72" pin="1"/>
+      <node ref="D79" pin="1"/>
+      <node ref="D75" pin="1"/>
+      <node ref="D77" pin="1"/>
+      <node ref="D73" pin="1"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D71" pin="1"/>
+    </net>
+    <net code="86" name="D-">
+      <node ref="U1" pin="4"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="87" name="row4">
+      <node ref="D59" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D66" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D70" pin="1"/>
+    </net>
+    <net code="88" name="row3">
+      <node ref="D56" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="U1" pin="41"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D55" pin="1"/>
+    </net>
+    <net code="89" name="col2">
       <node ref="U1" pin="59"/>
-      <node ref="SW31" pin="2"/>
-      <node ref="SW4" pin="2"/>
-      <node ref="SW73" pin="2"/>
+      <node ref="SW31" pin="1"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="SW73" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW17" pin="1"/>
     </net>
-    <net code="89" name="col1">
-      <node ref="SW58" pin="2"/>
+    <net code="90" name="col1">
       <node ref="U1" pin="60"/>
-      <node ref="SW72" pin="2"/>
-      <node ref="SW44" pin="2"/>
-      <node ref="SW16" pin="2"/>
-      <node ref="SW30" pin="2"/>
-      <node ref="SW3" pin="2"/>
+      <node ref="SW30" pin="1"/>
+      <node ref="SW72" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW44" pin="1"/>
+      <node ref="SW58" pin="1"/>
     </net>
-    <net code="90" name="col0">
-      <node ref="SW71" pin="2"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="SW57" pin="2"/>
-      <node ref="SW29" pin="2"/>
-      <node ref="SW43" pin="2"/>
+    <net code="91" name="col0">
+      <node ref="SW43" pin="1"/>
+      <node ref="SW57" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW71" pin="1"/>
+      <node ref="SW29" pin="1"/>
       <node ref="U1" pin="61"/>
-      <node ref="SW15" pin="2"/>
+      <node ref="SW2" pin="1"/>
     </net>
-    <net code="91" name="VCC">
-      <node ref="F1" pin="2"/>
-      <node ref="U2" pin="20"/>
-      <node ref="USB1" pin="11"/>
-      <node ref="R3" pin="1"/>
+    <net code="92" name="VCC">
       <node ref="U3" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U2" pin="29"/>
+      <node ref="USB1" pin="11"/>
+      <node ref="U2" pin="46"/>
+      <node ref="U2" pin="37"/>
+      <node ref="USB1" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="38"/>
+      <node ref="C5" pin="1"/>
       <node ref="C2" pin="1"/>
       <node ref="C1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U2" pin="38"/>
-      <node ref="U2" pin="37"/>
-      <node ref="J2" pin="3"/>
-      <node ref="USB1" pin="2"/>
       <node ref="R2" pin="1"/>
-      <node ref="U2" pin="29"/>
-      <node ref="U2" pin="46"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C12" pin="1"/>
     </net>
-    <net code="92" name="Net-(USB1-Pad3)">
+    <net code="93" name="Net-(USB1-Pad3)">
       <node ref="USB1" pin="3"/>
     </net>
-    <net code="93" name="Net-(USB1-Pad9)">
+    <net code="94" name="Net-(USB1-Pad9)">
       <node ref="USB1" pin="9"/>
     </net>
-    <net code="94" name="Net-(R10-Pad2)">
+    <net code="95" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2"/>
       <node ref="USB1" pin="10"/>
     </net>
-    <net code="95" name="Net-(R7-Pad2)">
+    <net code="96" name="Net-(R7-Pad2)">
       <node ref="R7" pin="2"/>
       <node ref="USB1" pin="4"/>
     </net>
-    <net code="96" name="Net-(R8-Pad2)">
-      <node ref="USB1" pin="7"/>
-      <node ref="R8" pin="2"/>
+    <net code="97" name="DN">
       <node ref="USB1" pin="5"/>
+      <node ref="USB1" pin="7"/>
       <node ref="U3" pin="3"/>
+      <node ref="R8" pin="2"/>
     </net>
-    <net code="97" name="Net-(R9-Pad2)">
+    <net code="98" name="DP">
       <node ref="USB1" pin="8"/>
-      <node ref="U3" pin="2"/>
-      <node ref="USB1" pin="6"/>
       <node ref="R9" pin="2"/>
-    </net>
-    <net code="98" name="Net-(C12-Pad2)">
-      <node ref="C12" pin="2"/>
-      <node ref="U2" pin="39"/>
+      <node ref="USB1" pin="6"/>
+      <node ref="U3" pin="2"/>
     </net>
     <net code="99" name="Net-(R5-Pad1)">
       <node ref="U2" pin="35"/>
       <node ref="R5" pin="1"/>
     </net>
     <net code="100" name="Net-(D28-Pad2)">
-      <node ref="SW28" pin="1"/>
       <node ref="D28" pin="2"/>
+      <node ref="SW28" pin="2"/>
     </net>
     <net code="101" name="Net-(D27-Pad2)">
       <node ref="D27" pin="2"/>
-      <node ref="SW27" pin="1"/>
+      <node ref="SW27" pin="2"/>
     </net>
-    <net code="102" name="Net-(D30-Pad2)">
-      <node ref="SW30" pin="1"/>
-      <node ref="D30" pin="2"/>
+    <net code="102" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="SW26" pin="2"/>
     </net>
     <net code="103" name="Net-(D29-Pad2)">
       <node ref="D29" pin="2"/>
-      <node ref="SW29" pin="1"/>
+      <node ref="SW29" pin="2"/>
     </net>
-    <net code="104" name="Net-(D22-Pad2)">
-      <node ref="SW22" pin="1"/>
+    <net code="104" name="Net-(D30-Pad2)">
+      <node ref="SW30" pin="2"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D22-Pad2)">
       <node ref="D22" pin="2"/>
+      <node ref="SW22" pin="2"/>
     </net>
-    <net code="105" name="Net-(D23-Pad2)">
+    <net code="106" name="Net-(D23-Pad2)">
+      <node ref="SW23" pin="2"/>
       <node ref="D23" pin="2"/>
-      <node ref="SW23" pin="1"/>
     </net>
-    <net code="106" name="Net-(D21-Pad2)">
+    <net code="107" name="Net-(D21-Pad2)">
+      <node ref="SW21" pin="2"/>
       <node ref="D21" pin="2"/>
-      <node ref="SW21" pin="1"/>
-    </net>
-    <net code="107" name="Net-(D26-Pad2)">
-      <node ref="SW26" pin="1"/>
-      <node ref="D26" pin="2"/>
     </net>
     <net code="108" name="Net-(D25-Pad2)">
+      <node ref="SW25" pin="2"/>
       <node ref="D25" pin="2"/>
-      <node ref="SW25" pin="1"/>
     </net>
     <net code="109" name="Net-(D24-Pad2)">
+      <node ref="SW24" pin="2"/>
       <node ref="D24" pin="2"/>
-      <node ref="SW24" pin="1"/>
     </net>
     <net code="110" name="Net-(D37-Pad2)">
-      <node ref="SW37" pin="1"/>
       <node ref="D37" pin="2"/>
+      <node ref="SW37" pin="2"/>
     </net>
-    <net code="111" name="Net-(D38-Pad2)">
-      <node ref="D38" pin="2"/>
-      <node ref="SW38" pin="1"/>
-    </net>
-    <net code="112" name="Net-(D39-Pad2)">
+    <net code="111" name="Net-(D39-Pad2)">
+      <node ref="SW39" pin="2"/>
       <node ref="D39" pin="2"/>
-      <node ref="SW39" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+      <node ref="SW38" pin="2"/>
     </net>
     <net code="113" name="Net-(D36-Pad2)">
       <node ref="D36" pin="2"/>
-      <node ref="SW36" pin="1"/>
+      <node ref="SW36" pin="2"/>
     </net>
     <net code="114" name="Net-(D41-Pad2)">
-      <node ref="SW41" pin="1"/>
+      <node ref="SW41" pin="2"/>
       <node ref="D41" pin="2"/>
     </net>
     <net code="115" name="Net-(D40-Pad2)">
-      <node ref="SW40" pin="1"/>
       <node ref="D40" pin="2"/>
+      <node ref="SW40" pin="2"/>
     </net>
-    <net code="116" name="Net-(D33-Pad2)">
-      <node ref="D33" pin="2"/>
-      <node ref="SW33" pin="1"/>
-    </net>
-    <net code="117" name="Net-(D32-Pad2)">
-      <node ref="SW32" pin="1"/>
+    <net code="116" name="Net-(D32-Pad2)">
+      <node ref="SW32" pin="2"/>
       <node ref="D32" pin="2"/>
     </net>
+    <net code="117" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="SW33" pin="2"/>
+    </net>
     <net code="118" name="Net-(D31-Pad2)">
-      <node ref="SW31" pin="1"/>
+      <node ref="SW31" pin="2"/>
       <node ref="D31" pin="2"/>
     </net>
     <net code="119" name="Net-(D35-Pad2)">
-      <node ref="SW35" pin="1"/>
       <node ref="D35" pin="2"/>
+      <node ref="SW35" pin="2"/>
     </net>
     <net code="120" name="Net-(D34-Pad2)">
-      <node ref="SW34" pin="1"/>
       <node ref="D34" pin="2"/>
+      <node ref="SW34" pin="2"/>
     </net>
-    <net code="121" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2"/>
-      <node ref="SW6" pin="1"/>
-    </net>
-    <net code="122" name="Net-(D6-Pad2)">
-      <node ref="SW7" pin="1"/>
-      <node ref="D6" pin="2"/>
-    </net>
-    <net code="123" name="Net-(D4-Pad2)">
-      <node ref="SW5" pin="1"/>
+    <net code="121" name="Net-(D4-Pad2)">
+      <node ref="SW5" pin="2"/>
       <node ref="D4" pin="2"/>
     </net>
-    <net code="124" name="Net-(D8-Pad2)">
-      <node ref="SW9" pin="1"/>
-      <node ref="D8" pin="2"/>
-    </net>
-    <net code="125" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2"/>
-      <node ref="SW10" pin="1"/>
-    </net>
-    <net code="126" name="Net-(D7-Pad2)">
-      <node ref="D7" pin="2"/>
-      <node ref="SW8" pin="1"/>
-    </net>
-    <net code="127" name="Net-(D1-Pad2)">
-      <node ref="SW2" pin="1"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="128" name="Net-(D74-Pad2)">
-      <node ref="D74" pin="2"/>
-      <node ref="SW74" pin="1"/>
-    </net>
-    <net code="129" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
-      <node ref="RE1" pin="S2"/>
-    </net>
-    <net code="130" name="Net-(D3-Pad2)">
+    <net code="122" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2"/>
-      <node ref="SW4" pin="1"/>
+      <node ref="SW4" pin="2"/>
     </net>
-    <net code="131" name="Net-(D2-Pad2)">
+    <net code="123" name="Net-(D2-Pad2)">
+      <node ref="SW3" pin="2"/>
       <node ref="D2" pin="2"/>
-      <node ref="SW3" pin="1"/>
     </net>
-    <net code="132" name="Net-(D16-Pad2)">
-      <node ref="SW16" pin="1"/>
-      <node ref="D16" pin="2"/>
+    <net code="124" name="Net-(D7-Pad2)">
+      <node ref="SW8" pin="2"/>
+      <node ref="D7" pin="2"/>
     </net>
-    <net code="133" name="Net-(D17-Pad2)">
-      <node ref="D17" pin="2"/>
-      <node ref="SW17" pin="1"/>
+    <net code="125" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="SW7" pin="2"/>
     </net>
-    <net code="134" name="Net-(D15-Pad2)">
-      <node ref="SW15" pin="1"/>
-      <node ref="D15" pin="2"/>
+    <net code="126" name="Net-(D5-Pad2)">
+      <node ref="SW6" pin="2"/>
+      <node ref="D5" pin="2"/>
     </net>
-    <net code="135" name="Net-(D20-Pad2)">
-      <node ref="D20" pin="2"/>
-      <node ref="SW20" pin="1"/>
+    <net code="127" name="Net-(D14-Pad2)">
+      <node ref="RE1" pin="S2"/>
+      <node ref="D14" pin="2"/>
     </net>
-    <net code="136" name="Net-(D19-Pad2)">
-      <node ref="D19" pin="2"/>
-      <node ref="SW19" pin="1"/>
+    <net code="128" name="Net-(D9-Pad2)">
+      <node ref="SW10" pin="2"/>
+      <node ref="D9" pin="2"/>
     </net>
-    <net code="137" name="Net-(D18-Pad2)">
-      <node ref="D18" pin="2"/>
-      <node ref="SW18" pin="1"/>
-    </net>
-    <net code="138" name="Net-(D10-Pad2)">
-      <node ref="SW11" pin="1"/>
+    <net code="129" name="Net-(D10-Pad2)">
+      <node ref="SW11" pin="2"/>
       <node ref="D10" pin="2"/>
     </net>
-    <net code="139" name="Net-(D11-Pad2)">
-      <node ref="SW12" pin="1"/>
+    <net code="130" name="Net-(D11-Pad2)">
       <node ref="D11" pin="2"/>
+      <node ref="SW12" pin="2"/>
     </net>
-    <net code="140" name="Net-(D13-Pad2)">
-      <node ref="D13" pin="2"/>
-      <node ref="SW14" pin="1"/>
-    </net>
-    <net code="141" name="Net-(D12-Pad2)">
-      <node ref="SW13" pin="1"/>
+    <net code="131" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2"/>
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="132" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="133" name="Net-(D74-Pad2)">
+      <node ref="SW74" pin="2"/>
+      <node ref="D74" pin="2"/>
+    </net>
+    <net code="134" name="Net-(D16-Pad2)">
+      <node ref="SW16" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="135" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="136" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="SW15" pin="2"/>
+    </net>
+    <net code="137" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="SW20" pin="2"/>
+    </net>
+    <net code="138" name="Net-(D19-Pad2)">
+      <node ref="SW19" pin="2"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="139" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="SW18" pin="2"/>
+    </net>
+    <net code="140" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="141" name="Net-(D13-Pad2)">
+      <node ref="SW14" pin="2"/>
+      <node ref="D13" pin="2"/>
     </net>
     <net code="142" name="Net-(D69-Pad2)">
-      <node ref="SW69" pin="1"/>
+      <node ref="SW69" pin="2"/>
       <node ref="D69" pin="2"/>
     </net>
     <net code="143" name="Net-(D70-Pad2)">
       <node ref="D70" pin="2"/>
-      <node ref="SW70" pin="1"/>
+      <node ref="SW70" pin="2"/>
     </net>
     <net code="144" name="Net-(D68-Pad2)">
+      <node ref="SW68" pin="2"/>
       <node ref="D68" pin="2"/>
-      <node ref="SW68" pin="1"/>
     </net>
     <net code="145" name="Net-(D71-Pad2)">
-      <node ref="SW71" pin="1"/>
       <node ref="D71" pin="2"/>
+      <node ref="SW71" pin="2"/>
     </net>
     <net code="146" name="Net-(D63-Pad2)">
+      <node ref="SW63" pin="2"/>
       <node ref="D63" pin="2"/>
-      <node ref="SW63" pin="1"/>
     </net>
     <net code="147" name="Net-(D64-Pad2)">
+      <node ref="SW64" pin="2"/>
       <node ref="D64" pin="2"/>
-      <node ref="SW64" pin="1"/>
     </net>
     <net code="148" name="Net-(D62-Pad2)">
       <node ref="D62" pin="2"/>
-      <node ref="SW62" pin="1"/>
+      <node ref="SW62" pin="2"/>
     </net>
     <net code="149" name="Net-(D67-Pad2)">
       <node ref="D67" pin="2"/>
-      <node ref="SW67" pin="1"/>
+      <node ref="SW67" pin="2"/>
     </net>
     <net code="150" name="Net-(D66-Pad2)">
-      <node ref="SW66" pin="1"/>
+      <node ref="SW66" pin="2"/>
       <node ref="D66" pin="2"/>
     </net>
     <net code="151" name="Net-(D72-Pad2)">
       <node ref="D72" pin="2"/>
-      <node ref="SW72" pin="1"/>
+      <node ref="SW72" pin="2"/>
     </net>
     <net code="152" name="Net-(D65-Pad2)">
+      <node ref="SW65" pin="2"/>
       <node ref="D65" pin="2"/>
-      <node ref="SW65" pin="1"/>
     </net>
     <net code="153" name="Net-(D80-Pad2)">
+      <node ref="SW80" pin="2"/>
       <node ref="D80" pin="2"/>
-      <node ref="SW80" pin="1"/>
     </net>
     <net code="154" name="Net-(D79-Pad2)">
       <node ref="D79" pin="2"/>
-      <node ref="SW79" pin="1"/>
+      <node ref="SW79" pin="2"/>
     </net>
-    <net code="155" name="Net-(D75-Pad2)">
-      <node ref="D75" pin="2"/>
-      <node ref="SW75" pin="1"/>
-    </net>
-    <net code="156" name="Net-(D76-Pad2)">
-      <node ref="SW76" pin="1"/>
+    <net code="155" name="Net-(D76-Pad2)">
       <node ref="D76" pin="2"/>
+      <node ref="SW76" pin="2"/>
+    </net>
+    <net code="156" name="Net-(D75-Pad2)">
+      <node ref="SW75" pin="2"/>
+      <node ref="D75" pin="2"/>
     </net>
     <net code="157" name="Net-(D73-Pad2)">
+      <node ref="SW73" pin="2"/>
       <node ref="D73" pin="2"/>
-      <node ref="SW73" pin="1"/>
     </net>
     <net code="158" name="Net-(D78-Pad2)">
-      <node ref="SW78" pin="1"/>
+      <node ref="SW78" pin="2"/>
       <node ref="D78" pin="2"/>
     </net>
     <net code="159" name="Net-(D42-Pad2)">
+      <node ref="SW42" pin="2"/>
       <node ref="D42" pin="2"/>
-      <node ref="SW42" pin="1"/>
     </net>
     <net code="160" name="Net-(D77-Pad2)">
       <node ref="D77" pin="2"/>
-      <node ref="SW77" pin="1"/>
+      <node ref="SW77" pin="2"/>
     </net>
     <net code="161" name="Net-(D48-Pad2)">
-      <node ref="SW48" pin="1"/>
+      <node ref="SW48" pin="2"/>
       <node ref="D48" pin="2"/>
     </net>
     <net code="162" name="Net-(D47-Pad2)">
-      <node ref="SW47" pin="1"/>
+      <node ref="SW47" pin="2"/>
       <node ref="D47" pin="2"/>
     </net>
-    <net code="163" name="Net-(D46-Pad2)">
-      <node ref="D46" pin="2"/>
-      <node ref="SW46" pin="1"/>
-    </net>
-    <net code="164" name="Net-(D50-Pad2)">
-      <node ref="D50" pin="2"/>
-      <node ref="SW50" pin="1"/>
-    </net>
-    <net code="165" name="Net-(D51-Pad2)">
-      <node ref="D51" pin="2"/>
-      <node ref="SW51" pin="1"/>
-    </net>
-    <net code="166" name="Net-(D49-Pad2)">
-      <node ref="SW49" pin="1"/>
+    <net code="163" name="Net-(D49-Pad2)">
+      <node ref="SW49" pin="2"/>
       <node ref="D49" pin="2"/>
     </net>
+    <net code="164" name="Net-(D46-Pad2)">
+      <node ref="SW46" pin="2"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="165" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2"/>
+      <node ref="SW50" pin="2"/>
+    </net>
+    <net code="166" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+      <node ref="SW51" pin="2"/>
+    </net>
     <net code="167" name="Net-(D43-Pad2)">
+      <node ref="SW43" pin="2"/>
       <node ref="D43" pin="2"/>
-      <node ref="SW43" pin="1"/>
     </net>
     <net code="168" name="Net-(D44-Pad2)">
-      <node ref="SW44" pin="1"/>
+      <node ref="SW44" pin="2"/>
       <node ref="D44" pin="2"/>
     </net>
     <net code="169" name="Net-(D45-Pad2)">
-      <node ref="SW45" pin="1"/>
+      <node ref="SW45" pin="2"/>
       <node ref="D45" pin="2"/>
     </net>
     <net code="170" name="Net-(D61-Pad2)">
-      <node ref="SW61" pin="1"/>
       <node ref="D61" pin="2"/>
+      <node ref="SW61" pin="2"/>
     </net>
-    <net code="171" name="Net-(D57-Pad2)">
-      <node ref="SW57" pin="1"/>
+    <net code="171" name="Net-(D58-Pad2)">
+      <node ref="SW58" pin="2"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="172" name="Net-(D57-Pad2)">
+      <node ref="SW57" pin="2"/>
       <node ref="D57" pin="2"/>
     </net>
-    <net code="172" name="Net-(D58-Pad2)">
-      <node ref="D58" pin="2"/>
-      <node ref="SW58" pin="1"/>
-    </net>
     <net code="173" name="Net-(D60-Pad2)">
-      <node ref="SW60" pin="1"/>
       <node ref="D60" pin="2"/>
+      <node ref="SW60" pin="2"/>
     </net>
-    <net code="174" name="Net-(D59-Pad2)">
+    <net code="174" name="Net-(D52-Pad2)">
+      <node ref="SW52" pin="2"/>
+      <node ref="D52" pin="2"/>
+    </net>
+    <net code="175" name="Net-(D59-Pad2)">
+      <node ref="SW59" pin="2"/>
       <node ref="D59" pin="2"/>
-      <node ref="SW59" pin="1"/>
     </net>
-    <net code="175" name="Net-(D53-Pad2)">
-      <node ref="SW53" pin="1"/>
+    <net code="176" name="Net-(D53-Pad2)">
       <node ref="D53" pin="2"/>
+      <node ref="SW53" pin="2"/>
     </net>
-    <net code="176" name="Net-(D54-Pad2)">
-      <node ref="SW54" pin="1"/>
+    <net code="177" name="Net-(D54-Pad2)">
+      <node ref="SW54" pin="2"/>
       <node ref="D54" pin="2"/>
     </net>
-    <net code="177" name="Net-(D52-Pad2)">
-      <node ref="D52" pin="2"/>
-      <node ref="SW52" pin="1"/>
-    </net>
     <net code="178" name="Net-(D56-Pad2)">
-      <node ref="SW56" pin="1"/>
+      <node ref="SW56" pin="2"/>
       <node ref="D56" pin="2"/>
     </net>
     <net code="179" name="Net-(D55-Pad2)">
-      <node ref="SW55" pin="1"/>
       <node ref="D55" pin="2"/>
+      <node ref="SW55" pin="2"/>
     </net>
   </nets>
 </export>

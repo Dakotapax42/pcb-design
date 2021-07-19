@@ -4,4 +4,5 @@
   (lib (name keebio)(type Legacy)(uri C:/Users/dakot/Documents/Github/pcb-design/keebio-components-master/keebio.lib)(options "")(descr ""))
   (lib (name ai03-locallib)(type Legacy)(uri C:/Users/dakot/Desktop/ai03-locallib.lib)(options "")(descr ""))
   (lib (name logic)(type Legacy)(uri C:/Users/dakot/Desktop/logic.lib)(options "")(descr ""))
+  (lib (name version1-cache)(type Legacy)(uri ${KIPRJMOD}/version1-cache.lib)(options "")(descr ""))
 )

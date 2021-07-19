@@ -440,17 +440,6 @@ F 3 "~" H 6200 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
-U 1 1 6075CF2B
-P 6950 7400
-F 0 "H6" H 7050 7446 50  0000 L CNN
-F 1 "MountingHole" H 7050 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 6950 7400 50  0001 C CNN
-F 3 "~" H 6950 7400 50  0001 C CNN
-	1    6950 7400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H2
 U 1 1 60763ACB
 P 6950 6900
@@ -512,8 +501,6 @@ Text GLabel 11250 2700 2    50   Input ~ 0
 CS3
 Text GLabel 11250 2600 2    50   Input ~ 0
 CS2
-Text GLabel 11250 2500 2    50   Input ~ 0
-CS1
 Connection ~ 10450 5600
 Wire Wire Line
 	10450 5600 10150 5600
@@ -746,7 +733,7 @@ L Device:C_Small C4
 U 1 1 60636FFF
 P 11000 1850
 F 0 "C4" H 11092 1896 50  0000 L CNN
-F 1 ".1uF" H 11092 1805 50  0000 L CNN
+F 1 "0.1uF" H 11092 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11000 1850 50  0001 C CNN
 F 3 "~" H 11000 1850 50  0001 C CNN
 	1    11000 1850
@@ -846,7 +833,7 @@ L Device:C_Small C2
 U 1 1 60636FC5
 P 10150 1850
 F 0 "C2" H 10242 1896 50  0000 L CNN
-F 1 ".1uF" H 10242 1805 50  0000 L CNN
+F 1 "0.1uF" H 10242 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10150 1850 50  0001 C CNN
 F 3 "~" H 10150 1850 50  0001 C CNN
 	1    10150 1850
@@ -918,7 +905,7 @@ L Device:C_Small C6
 U 1 1 6061A4B1
 P 11700 1850
 F 0 "C6" H 11792 1896 50  0000 L CNN
-F 1 ".1uF" H 11792 1805 50  0000 L CNN
+F 1 "0.1uF" H 11792 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11700 1850 50  0001 C CNN
 F 3 "~" H 11700 1850 50  0001 C CNN
 	1    11700 1850
@@ -949,10 +936,6 @@ NoConn ~ 11250 3900
 NoConn ~ 11250 4000
 NoConn ~ 11250 4800
 NoConn ~ 11250 4900
-NoConn ~ 11250 5000
-NoConn ~ 11250 5100
-NoConn ~ 11250 5200
-NoConn ~ 11250 5300
 NoConn ~ 9850 2900
 NoConn ~ 9850 3300
 Wire Wire Line
@@ -1329,4 +1312,10 @@ Text GLabel 2500 5750 3    50   Input ~ 0
 DP
 Text GLabel 2500 5650 1    50   Input ~ 0
 DN
+NoConn ~ 11250 5000
+NoConn ~ 11250 5300
+NoConn ~ 11250 5200
+NoConn ~ 11250 5100
+Text GLabel 11250 2500 2    50   Input ~ 0
+CS1
 $EndSCHEMATC
